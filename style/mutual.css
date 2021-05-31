@@ -1,9 +1,24 @@
-/* =========================== Variabler ===========================*/
+/**
+ * /* =========================== Variabler ===========================
+ *
+ * @format
+ */
+
 :root {
-  --primary: #0000ff;
-  --secundary: #000000;
-  --tertiary: #ff0000;
-  --knap_farve: #ffffff;
+	--primary: #0000ff;
+	--secundary: #000000;
+	--tertiary: #ff0000;
+	--knap_farve: #ffffff;
+}
+
+@font-face {
+	font-family: "Play Fair";
+	src: url("/fonts/PlayFairDisplay.woff2") format("woff2"),
+		url("/fonts/PlayfairDisplay.woff") format("woff");
+}
+
+body {
+	font-family: "Play Fair", serif;
 }
 
 /* =========================== Header ===========================*/
@@ -12,13 +27,17 @@
 /* =========================== Overskrifter ===========================*/
 
 h1 {
-  color: var(--primary);
+	font-family: "Quicksand", sans-serif;
+	color: var(--primary);
 }
 h2 {
+	font-family: "Quicksand", sans-serif;
 }
 h3 {
+	font-family: "Quicksand", sans-serif;
 }
 h4 {
+	font-family: "Quicksand", sans-serif;
 }
 /* =========================== Farver ===========================*/
 /* =========================== Fonte ===========================*/
