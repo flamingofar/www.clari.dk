@@ -1,0 +1,34 @@
+.price_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.price {
+  height: 20rem;
+  max-width: 17rem;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.box_1 {
+  background-color: #cca460;
+}
+
+.box_2 {
+  background-color: #80622f;
+  color: white;
+}
+
+.box_3 {
+  background-color: #6094cc;
+}
+
+.box_4 {
+  background-color: #ffd791;
+}
+
+.box_5 {
+  background-color: #234f80;
+  color: white;
+}
