@@ -6,10 +6,20 @@
 
 :root {
 	/* =========================== Farver ===========================*/
-	--primary: #0000ff;
-	--secundary: #000000;
-	--tertiary: #ff0000;
-	--knap_farve: #ffffff;
+	--primary: #cca460;
+	--secundary: #80622f;
+	--tertiary: #6094cc;
+	--accent_light: #ffd791;
+	--accent_dark: #234f80;
+	--white: #fff;
+	--black: #000;
+
+	/* =========================== Spacing ===========================*/
+
+	--small_spacing: 0.5rem;
+	--medium_spacing: 1rem;
+	--large_spacing: 1.5rem;
+	--x-large_spacing: 2rem;
 }
 
 /* =========================== Fonte ===========================*/
@@ -143,6 +153,9 @@ h3 {
 	font-family: "Quicksand", sans-serif;
 }
 h4 {
+	font-family: "Quicksand", sans-serif;
+}
+a {
 	font-family: "Quicksand", sans-serif;
 }
 /* =========================== Main ===========================*/
