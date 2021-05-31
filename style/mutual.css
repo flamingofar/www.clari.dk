@@ -38,6 +38,97 @@ label {
 /* =========================== Header ===========================*/
 /* =========================== Menu ===========================*/
 /* =========================== Burgermenu ===========================*/
+header {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0.5rem;
+}
+.burger_menu {
+	position: absolute;
+	height: 3rem;
+	width: 3rem;
+
+	right: 1rem;
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	z-index: 10;
+}
+
+.stroke {
+	position: absolute;
+	top: calc(50%);
+	left: 0;
+	height: 0.3rem;
+	width: 3rem;
+	background: black;
+
+	border-radius: 999px;
+	pointer-events: none;
+
+	transition: all 0.3s;
+}
+
+.burger_menu .stroke_top {
+	transform: translateY(-0.6rem);
+}
+.burger_menu .stroke_center {
+	transform: translateY(0);
+}
+.burger_menu .stroke_bottom {
+	transform: translateY(0.6rem);
+}
+
+.burger_menu .stroke_top.openMenu {
+	transform: rotate(45deg);
+}
+.burger_menu .stroke_center.openMenu {
+	transform: translateX(5rem);
+	opacity: 0;
+}
+.burger_menu .stroke_bottom.openMenu {
+	transform: rotate(-45deg);
+}
+
+nav ul {
+	top: 0;
+	left: 0;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background: #ffd791;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	transition: 0.3s;
+}
+
+nav ul li {
+	margin-bottom: 1rem;
+}
+
+nav ul li a {
+	color: #4b4b4b;
+	font-size: 3rem;
+}
+nav ul li a:hover {
+	border-bottom: 2px solid #4b4b4b;
+}
+
+nav ul.openMenu {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
 /* =========================== Overskrifter ===========================*/
 
 h1 {
