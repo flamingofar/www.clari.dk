@@ -20,3 +20,13 @@ body {
   margin-bottom: 80px;
   place-content: center;
 }
+
+@media (min-width: 1000px) {
+    #second_section .section_wrapper {
+        display: grid;
+        width: 1000px;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+
+    }
+
