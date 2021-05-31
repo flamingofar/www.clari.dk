@@ -30,7 +30,8 @@
 
 body,
 p,
-li {
+li,
+label {
 	font-family: "Play Fair", serif;
 }
 
