@@ -28,7 +28,7 @@
           Int. certificeret coach
           <br />
           <br />
-          Nørregade 41, 3. sal - (Nær Nørreport St.)
+          Nørregade 41, 3. sal - (nær Nørreport St.)
           <br />
           1165 København K.
           <br />
@@ -54,25 +54,33 @@
 
       <section id="section_2">
         <h3>Kontaktformular</h3>
-        <form>
-          <label for="full-name">Navn</label>
-          <input id="full-name" name="Navn" type="text" />
+        <form name="kontakt" netlify>
+          <div class="form_felt">
+            <label for="full-name">Navn</label>
+            <input id="full-name" name="Navn" type="text" required />
+          </div>
 
-          <label for="email">E-mail</label>
-          <input id="email" name="email" type="email" />
+          <div class="form_felt">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" required />
+          </div>
 
-          <label for="subject">Emne</label>
-          <select id="subject" name="Emne" type="select">
-            <option value="therapy">Parterapi</option>
-            <option value="eating">Spiseforstyrrelser</option>
-            <option value="birthreaction">Efterfødselsreaktioner</option>
-            <option value="coaching">Coaching</option>
-            <option value="mindfulness">Mindfullness</option>
-            <option value="prices">Priser</option>
-          </select>
+          <div class="form_felt">
+            <label for="subject">Emne</label>
+            <select id="subject" name="Emne" type="select" required>
+              <option value="therapy">Parterapi</option>
+              <option value="eating">Spiseforstyrrelser</option>
+              <option value="birthreaction">Efterfødselsreaktioner</option>
+              <option value="coaching">Coaching</option>
+              <option value="mindfulness">Mindfullness</option>
+              <option value="prices">Priser</option>
+            </select>
+          </div>
 
-          <label for="note">Besked</label>
-          <input id="note" name="Besked" type="text" />
+          <div class="form_felt">
+            <label for="note">Besked</label>
+            <textarea id="note" name="Besked" type="text" rows="5"> </textarea>
+          </div>
 
           <button>Indsend</button>
         </form>
