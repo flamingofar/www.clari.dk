@@ -1,3 +1,17 @@
+main {
+  width: 90vw;
+  margin: auto;
+}
+
+#iframe_div {
+  width: 90vw;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+}
+
 /* sætter kontaktformular-elementerne nedenunder hinanden */
 label,
 input,
@@ -40,40 +54,42 @@ button:hover {
   color: white;
 }
 
-#section_3 {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 90vw) 1fr;
-  grid-template-rows: 1fr 1fr;
+/* placerer section 3 (de to billeder) */
+
+.read_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  height: 15vh;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-/* placerer section 3 (de to billeder) */
-.read_more_container {
+.banner1 {
+  width: 100%;
+  background: rgba(255, 215, 145, 0.61);
+  text-align: center;
+}
+
+.banner2 {
+  width: 100%;
+  background: rgba(96, 148, 204, 0.61);
+  text-align: center;
+}
+
+.read_more.about {
+  background-image: url(../assets/img/blade.jpg);
 }
 
 .read_more.offers {
   background-image: url(../assets/img/baby.jpg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  height: 15vh;
-  width: 50vh;
-  grid-row: 2/2;
-}
-.read_more.offers a {
-  background-color: #ffd791;
-  color: white;
-}
-.read_more.about {
-  background-image: url(../assets/img/blade.jpg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  height: 15vh;
-  width: 50vh;
-  grid-row: 1/2;
 }
 
 .read_more.about a {
-  background-color: #6094cc;
+  color: white;
+}
+.read_more.offers a {
   color: #ffd791;
 }
