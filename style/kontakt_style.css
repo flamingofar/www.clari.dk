@@ -1,5 +1,79 @@
+/* sætter kontaktformular-elementerne nedenunder hinanden */
 label,
 input,
+select,
 button {
   display: block;
+  font-family: "Play Fair", serif;
+}
+
+/* styler kontaktformularen */
+input,
+select,
+textarea {
+  height: 2rem;
+  width: 12rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  height: 8rem;
+  resize: none;
+}
+
+/* styling og placering af indsend-knap */
+button {
+  background-color: #6094cc;
+  color: white;
+  transition-duration: 0.4s;
+  padding: 15px 32px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+}
+
+button:hover {
+  background-color: #234f80;
+  color: white;
+}
+
+#section_3 {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 90vw) 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* placerer section 3 (de to billeder) */
+.read_more_container {
+}
+
+.read_more.offers {
+  background-image: url(../assets/img/baby.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  width: 50vh;
+  grid-row: 2/2;
+}
+.read_more.offers a {
+  background-color: #ffd791;
+  color: white;
+}
+.read_more.about {
+  background-image: url(../assets/img/blade.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  width: 50vh;
+  grid-row: 1/2;
+}
+
+.read_more.about a {
+  background-color: #6094cc;
+  color: #ffd791;
 }
