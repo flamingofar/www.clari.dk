@@ -13,7 +13,7 @@ img {
 }
 
 #section_3 ul {
-  padding: 0;
+  padding-bottom: 0;
 }
 
 #section_5 img {
@@ -22,6 +22,10 @@ img {
   background-size: cover;
   background-position: 98% 10%;
   place-content: center;
+}
+
+#section_6 ul {
+  padding-bottom: 0;
 }
 
 footer {
