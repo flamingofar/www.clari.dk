@@ -77,3 +77,16 @@ footer .three_links {
   padding-right: 16px;
   text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+  #section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #section_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
