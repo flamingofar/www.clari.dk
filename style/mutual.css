@@ -179,7 +179,8 @@ main {
 
 ul {
   list-style-position: inside;
-  list-style-type: circle;
+  /* list-style-type: circle; */
+  list-style-type: disc;
   padding-left: 2rem;
   line-height: 2rem;
 }
