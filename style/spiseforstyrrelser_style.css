@@ -1,3 +1,5 @@
+/* ________________baggrundsfarver på afsnit________________ */
+
 #anoreksi_section {
   background-color: #cca46082;
   margin-bottom: 1.5rem;
@@ -16,18 +18,12 @@
   padding: 1rem 1rem;
 }
 
-#selvhad_section {
-}
-
 #raad_section {
   background-color: #6094cc;
   padding: 1rem 1rem;
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
+/* ________________Billeder indsat med css & div'er________________ */
 
 .pic1 {
   background: url("../billeder/unsplash/deniz-z8tXhG946s0-unsplash.jpg");
@@ -40,18 +36,20 @@
 .pic2 {
   background: url("../billeder/unsplash/nathan-dumlao-_-prYEEf0v4-unsplash.jpg");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   width: 100%;
-  padding: 20%;
+  padding: 71% 50%;
 }
 
 .pic3 {
   background: url(".././billeder/unsplash/andreas-dress-Eyvbop4Rheg-unsplash.jpg");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 66%;
   width: 100%;
-  padding: 20%;
+  padding: 30%;
 }
+
+/* ____________________________FOOTER KODER_____________________ */
 
 footer {
   width: 100vw;
