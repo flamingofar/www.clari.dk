@@ -30,21 +30,27 @@
 } */
 
 .pic1 {
-  content: url(../billeder/unsplash/deniz-z8tXhG946s0-unsplash.jpg);
+  background: url("../billeder/unsplash/deniz-z8tXhG946s0-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
   width: 100%;
-  height: auto;
+  padding: 50%;
 }
 
 .pic2 {
-  content: url(../billeder/unsplash/nathan-dumlao-_-prYEEf0v4-unsplash.jpg);
+  background: url("../billeder/unsplash/nathan-dumlao-_-prYEEf0v4-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
   width: 100%;
-  height: auto;
+  padding: 20%;
 }
 
 .pic3 {
-  content: url(../billeder/unsplash/andreas-dress-Eyvbop4Rheg-unsplash.jpg);
+  background: url(".././billeder/unsplash/andreas-dress-Eyvbop4Rheg-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
   width: 100%;
-  height: auto;
+  padding: 20%;
 }
 
 footer {

@@ -1,0 +1,85 @@
+#section_1 h3 {
+  margin-top: 2rem;
+}
+
+#section_1 p {
+  margin-top: 2rem;
+}
+
+#section_2 p {
+  grid-column: 2/3;
+}
+
+/* -----------------ligger alle billeder ind -----------------*/
+.pic1 {
+  background: url(../assets/img/hoe.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+.pic2 {
+  content: url(../assets/img/heander.jpg);
+  width: 100%;
+  height: auto;
+}
+
+.pic3 {
+  content: url(../assets/img/bjerg.jpg);
+  width: 100%;
+  height: auto;
+}
+
+/* -----------------indsætter baggrundsfarve-----------------*/
+
+#section_2 {
+  background-color: #80622f9c;
+  grid-column: 1/-1;
+}
+
+#section_4 {
+  background-color: #6094cc85;
+  grid-column: 1/-1;
+}
+
+#section_5 {
+  background-color: #6094cc;
+  color: white;
+}
+
+#section_6 {
+  background-color: #6094cc85;
+  grid-column: 1/-1;
+}
+
+/* -----------------designer footer-----------------*/
+
+footer {
+  width: 100vw;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
+
+  color: var(--black);
+}
+footer div,
+p {
+  padding: 0 0 var(--medium_spacing) 0;
+}
+
+footer p,
+a {
+  color: var(--black);
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer .three_links {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
