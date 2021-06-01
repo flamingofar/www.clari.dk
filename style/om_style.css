@@ -5,8 +5,20 @@ img {
   height: auto;
 }
 
-
 main {
+    width: 90vw;
+    margin: auto;
+  }
+  
+
+.banner1 {
+    width: 100%;
+    background: rgba(207, 207, 207, 0.568);
+    text-align: center;
+  }
+
+
+/* main {
     display: grid;
     grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 
@@ -15,7 +27,9 @@ main {
 main > section {
     grid-column: 2/3;
 
-}
+} */
+
+
 
 #section_1 {
   display: grid;
