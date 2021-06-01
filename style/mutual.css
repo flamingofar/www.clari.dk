@@ -265,8 +265,9 @@ footer .three_links {
 	/* =========================== Burgermenu ===========================*/
 
 	header .logo {
-		width: 20rem;
-		height: 7.32rem;
+		margin: 2rem 5rem;
+		width: 10rem;
+		height: 3.66rem;
 		background: url(../assets/img/logo_komplet.svg);
 		background-size: cover;
 	}
