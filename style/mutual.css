@@ -29,14 +29,6 @@
 
 /* =========================== Fonte ===========================*/
 
-@font-face {
-	font-family: "cormorant_garamondmedium";
-	src: url("../fonts/cormorantgaramond-medium-webfont.woff2") format("woff2"),
-		url("../fonts/cormorantgaramond-medium-webfont.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
-
 * {
 	margin: 0;
 	padding: 0;
