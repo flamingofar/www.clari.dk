@@ -50,3 +50,11 @@ footer .three_links {
   justify-content: start;
   flex-direction: column;
 }
+
+@media (min-width: 600px) {
+  header nav {
+    display: flex;
+    align-items: baseline;
+    gap: 85px;
+  }
+}
