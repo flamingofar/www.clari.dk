@@ -1,19 +1,22 @@
 #section_1 h3 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  padding: 0%;
 }
 
 #section_1 p {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 #section_6 h4 {
   text-align: center;
 }
 
-#section_1 ul {
+li:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+#section_1 .psyko_section {
+  margin-top: 0;
 }
 
 /* -----------------ligger alle billeder ind -----------------*/
@@ -33,9 +36,11 @@
 }
 
 .pic3 {
-  content: url(../assets/img/bjerg.jpg);
+  background: url(../assets/img/bjerg.jpg);
+  background-size: cover;
   width: 100%;
-  height: auto;
+  padding-bottom: 79%;
+  background-position: 20%;
 }
 
 /* -----------------indsætter baggrundsfarve-----------------*/
