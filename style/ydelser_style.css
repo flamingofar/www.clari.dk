@@ -2,3 +2,40 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+footer {
+  width: 100vw;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
+
+  color: var(--black);
+}
+footer div,
+p {
+  padding: 0 0 var(--medium_spacing) 0;
+}
+
+footer p,
+a {
+  color: var(--black);
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer .three_links {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+#section_1 .section_wrapper {
+  width: 100%;
+  background: rgba(196, 193, 193, 0.58);
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}

@@ -9,6 +9,7 @@
   max-width: 17rem;
   padding: 1rem;
   justify-self: center;
+  padding-top: 4.5rem;
 }
 
 .box_1 {
@@ -31,4 +32,32 @@
 .box_5 {
   background-color: #234f80;
   color: white;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
+
+  color: var(--black);
+}
+footer div,
+p {
+  padding: 0 0 var(--medium_spacing) 0;
+}
+
+footer p,
+a {
+  color: var(--black);
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer .three_links {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
