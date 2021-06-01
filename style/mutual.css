@@ -26,8 +26,8 @@
 
 @font-face {
   font-family: "cormorant_garamondmedium";
-  src: url("cormorantgaramond-medium-webfont.woff2") format("woff2"),
-    url("cormorantgaramond-medium-webfont.woff") format("woff");
+  src: url("../fonts/cormorantgaramond-medium-webfont.woff2") format("woff2"),
+    url("../fonts/cormorantgaramond-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ body,
 p,
 label {
   font-family: "cormorant_garamondmedium", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.3rem;
 }
 
