@@ -1,5 +1,6 @@
 /** @format */
 #section_1 {
+	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	background: url(../assets/img/forside_ac.png),
@@ -59,7 +60,7 @@
 }
 
 #section_2 .testimonials .col {
-	width: 90vw;
+	width: 100%;
 	background: var(--tertiary);
 	padding: 1.5rem;
 	margin-right: 0.5rem;

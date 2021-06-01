@@ -188,8 +188,14 @@ nav ul.openMenu {
 /* =========================== Main ===========================*/
 main {
 	display: grid;
-	width: 90vw;
+	grid-template-columns:
+		minmax(1rem, 1fr)
+		minmax(auto, 1000px)
+		minmax(1rem, 1fr);
 	margin: auto;
+}
+main > * {
+	grid-column: 2;
 }
 
 ul {
