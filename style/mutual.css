@@ -42,7 +42,8 @@
 
 body,
 p,
-label {
+label,
+form {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   line-height: 1.7rem;
