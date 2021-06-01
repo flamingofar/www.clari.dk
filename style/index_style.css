@@ -11,6 +11,8 @@
 }
 
 #section_1 .overskrift_container {
+	position: relative;
+	z-index: 0;
 	grid-area: 1/3;
 	padding: 2rem;
 }
@@ -48,7 +50,12 @@
 
 #section_2 .testimonials {
 	display: flex;
-	width: 400vw;
+	width: 400%;
+
+	animation-name: testimonials_kf;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 #section_2 .testimonials .col {
@@ -136,4 +143,22 @@
 }
 #section_3 .box_6 a {
 	background: rgba(204, 164, 96, 0.712);
+}
+
+@keyframes testimonials_kf {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-100%);
+	}
+	50% {
+		transform: translateX(-200%);
+	}
+	75% {
+		transform: translateX(-300%);
+	}
+	100% {
+		transform: translateX(0);
+	}
 }
