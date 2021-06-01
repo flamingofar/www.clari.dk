@@ -187,21 +187,12 @@ nav ul.openMenu {
 
 /* =========================== Main ===========================*/
 main {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns:
     minmax(1rem, 1fr)
-    minmax(auto, 1000px)
+    minmax(auto, 1200px)
     minmax(1rem, 1fr);
   margin: auto;
-=======
-	display: grid;
-	grid-template-columns:
-		minmax(1rem, 1fr)
-		minmax(auto, 1200px)
-		minmax(1rem, 1fr);
-	margin: auto;
->>>>>>> 847d621da29042fdc8a69866f2de8a410d4b025c
 }
 main > * {
   grid-column: 2;
@@ -221,18 +212,11 @@ img {
 
 /* =========================== Footer ===========================*/
 footer {
-<<<<<<< HEAD
-  width: 100vw;
+  grid-column: 1/-1;
+  width: 100%;
   height: auto;
   background: var(--accent_light);
   padding: var(--medium_spacing);
-=======
-	grid-column: 1/-1;
-	width: 100%;
-	height: auto;
-	background: var(--accent_light);
-	padding: var(--medium_spacing);
->>>>>>> 847d621da29042fdc8a69866f2de8a410d4b025c
 
   color: var(--black);
 }
@@ -256,12 +240,3 @@ footer .three_links {
   flex-direction: column;
 }
 /* =========================== Mediaqueries ===========================*/
-<<<<<<< HEAD
-
-@media screen and (min-width: 600px) {
-  body {
-    background-color: olive;
-  }
-}
-=======
->>>>>>> 847d621da29042fdc8a69866f2de8a410d4b025c
