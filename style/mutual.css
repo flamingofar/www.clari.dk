@@ -101,7 +101,7 @@ header {
 header .logo {
 	width: 10rem;
 	height: 3.26rem;
-	background: url(../assets/img/logo_mobil.png);
+	background: url(../assets/img/logo_mobil.svg);
 	background-size: cover;
 }
 .burger_menu {
@@ -275,7 +275,7 @@ footer .three_links {
 	header .logo {
 		width: 20rem;
 		height: 7.32rem;
-		background: url(../assets/img/logo_komplet.png);
+		background: url(../assets/img/logo_komplet.svg);
 		background-size: cover;
 	}
 
