@@ -1,9 +1,4 @@
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
-
-#section_1 {
+#section_1 .col1 {
   width: 100%;
   height: 100vh;
   background-image: url(../billeder/p1copy.jpg);
@@ -12,20 +7,13 @@
   place-content: center;
 }
 
-#section_3 ul {
-  padding-bottom: 0;
+#section_2 {
+  background-color: #234e8081;
+  padding-bottom: 16px;
 }
 
-#section_5 {
-  width: 100%;
-  height: 50vh;
-  background-size: cover;
-  background-position: 98% 10%;
-  place-content: center;
-}
-
-#section_6 ul {
-  padding-bottom: 0;
+#section_3 {
+  padding-top: 16;
 }
 
 footer {
