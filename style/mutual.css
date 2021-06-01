@@ -142,7 +142,12 @@ nav ul.openMenu {
 /* =========================== Overskrifter ===========================*/
 
 h1 {
+<<<<<<< HEAD
   font-family: "Quicksand", sans-serif;
+=======
+	font-family: "Quicksand", sans-serif;
+	font-size: 2vw;
+>>>>>>> 5be8ce9bcc5c876f89238ab1bf3f61dab7497a96
 }
 h2 {
   font-family: "Quicksand", sans-serif;
