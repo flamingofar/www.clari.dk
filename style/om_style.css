@@ -1,106 +1,55 @@
 img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+  max-width: 100%;
   height: auto;
 }
 
-/* main {
-    width: 90vw;
-    margin: auto;
-  } */
-
-main {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
-}
-
-main > section {
-  grid-column: 2/3;
-}
-
 #section_1 {
-  display: grid;
-  grid-column: 1/4;
   width: 100%;
   height: 100vh;
   background-image: url(../billeder/p1copy.jpg);
   background-size: cover;
-  background-position: 98% 10%;
-  margin-bottom: 80px;
+  background-position: 65% 10%;
   place-content: center;
 }
 
-#section_1 .section_wrapper {
+#section_3 ul {
+  padding: 0;
+}
+
+#section_5 img {
   width: 100%;
-  background: rgba(196, 193, 193, 0.58);
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  text-align: center;
+  height: 50vh;
+  background-size: cover;
+  background-position: 98% 10%;
+  place-content: center;
 }
 
-#section_2 {
-  border: 10px solid white;
-  padding: 15px;
-  padding-right: none;
+footer {
+  width: 100vw;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
+
+  color: var(--black);
+}
+footer div,
+p {
+  padding: 0 0 var(--medium_spacing) 0;
 }
 
-#section_2 .section_wrapper {
-  max-width: 600px;
-  padding: 14px;
+footer p,
+a {
+  color: var(--black);
 }
 
-#section_3 {
-  border: 10px solid white;
-  padding: 15px;
-  padding-right: none;
+footer a {
+  text-decoration: underline;
 }
 
-#section_3 .section_wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  margin-bottom: 60px;
-}
-
-#section_4 .section_wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  margin-bottom: 60px;
-}
-
-#section_4 .col_wide {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-#section_5 .col {
+footer .three_links {
   display: flex;
+  justify-content: start;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-#section_5 .section_wrapper {
-  display: grid;
-  grid-template-columns: repeat (4, 1fr);
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-#section_6 .col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#section_6 .section_wrapper {
-  display: grid;
-  grid-template-columns: repeat (4, 1fr);
-  gap: 20px;
-  margin-bottom: 20px;
 }
 
 /* @media (min-width: 1000px) {
