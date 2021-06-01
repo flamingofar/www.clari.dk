@@ -1,4 +1,4 @@
-/* ________________Billeder________________ */
+/* ________________Billeder & video________________ */
 
 img {
   max-width: 100%;
@@ -20,6 +20,22 @@ img {
   background-position: 50% 0%;
   width: 100%;
   padding: 47% 50%;
+}
+
+.pic3 {
+  background: url("../billeder/egne/screenshot_video.JPG");
+  background-size: cover;
+  background-position: 54% 0%;
+  width: 100%;
+  padding: 30% 50%;
+  grid-area: 1/1;
+}
+
+.section3_wrapper {
+  display: grid;
+}
+
+.section3_wrapper h3 {
 }
 
 /* ____________________________FOOTER KODER_____________________ */
