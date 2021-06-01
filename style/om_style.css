@@ -5,6 +5,12 @@ img {
   height: auto;
 }
 
+.banner1 {
+    width: 100%;
+    background: rgba(207, 207, 207, 0.568);
+    text-align: center;
+  }
+
 
 main {
     display: grid;
@@ -16,6 +22,8 @@ main > section {
     grid-column: 2/3;
 
 }
+
+
 
 #section_1 {
   display: grid;
