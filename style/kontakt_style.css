@@ -4,13 +4,12 @@ main {
 }
 
 #section_1 p {
-  letter-spacing: 0.15rem;
   font-size: 1rem;
   margin-top: 2.5rem;
+  line-height: 150%;
 }
 
 #section_1 h2 {
-  letter-spacing: 1.6vw;
   font-size: 5.3vw;
 }
 
@@ -25,14 +24,17 @@ iframe {
   width: 100%;
 }
 
+form {
+  display: grid;
+  justify-self: start;
+}
+
 /* sætter kontaktformular-elementerne nedenunder hinanden */
 label,
 input,
 select,
 button {
-  display: block;
   font-family: "Play Fair", serif;
-  letter-spacing: 0.6vw;
   color: var(--black);
 }
 
@@ -62,6 +64,9 @@ button {
   font-size: 14px;
   border-radius: 30px;
   border: none;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  justify-self: start;
 }
 
 button:hover {
