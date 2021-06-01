@@ -7,7 +7,7 @@
 }
 
 .price {
-  height: 20rem;
+  height: 24rem;
   max-width: 17rem;
   padding: 1rem;
   justify-self: center;
@@ -48,6 +48,7 @@ footer {
 
   color: var(--black);
 }
+
 footer div,
 p {
   padding: 0 0 var(--medium_spacing) 0;
@@ -73,6 +74,7 @@ footer .three_links {
 @media screen and (min-width: 600px) {
   .price_container {
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2rem;
   }
 
   .price {
