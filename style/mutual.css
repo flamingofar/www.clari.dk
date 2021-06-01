@@ -5,203 +5,203 @@
  */
 
 :root {
-  /* =========================== Farver ===========================*/
-  --primary: #cca460;
-  --secundary: #80622f;
-  --tertiary: #6094cc;
-  --accent_light: #ffd791;
-  --accent_dark: #234f80;
-  --white: #fff;
-  --black: #000;
+	/* =========================== Farver ===========================*/
+	--primary: #cca460;
+	--secundary: #80622f;
+	--tertiary: #6094cc;
+	--accent_light: #ffd791;
+	--accent_dark: #234f80;
+	--white: #fff;
+	--black: #000;
 
-  /* =========================== Spacing ===========================*/
+	/* =========================== Spacing ===========================*/
 
-  --small_spacing: 0.5rem;
-  --medium_spacing: 1rem;
-  --large_spacing: 1.5rem;
-  --x-large_spacing: 2rem;
+	--small_spacing: 0.5rem;
+	--medium_spacing: 1rem;
+	--large_spacing: 1.5rem;
+	--x-large_spacing: 2rem;
 }
 
 /* =========================== Fonte ===========================*/
 
 @font-face {
-  font-family: "cormorant_garamondmedium";
-  src: url("../fonts/cormorantgaramond-medium-webfont.woff2") format("woff2"),
-    url("../fonts/cormorantgaramond-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+	font-family: "cormorant_garamondmedium";
+	src: url("../fonts/cormorantgaramond-medium-webfont.woff2") format("woff2"),
+		url("../fonts/cormorantgaramond-medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 
-  text-decoration: none;
+	text-decoration: none;
 }
 
 body,
 p,
 label,
 form {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.7rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.9rem;
+	line-height: 1.7rem;
 }
 
 /* =========================== Overskrifter ===========================*/
 
 h1 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  padding-bottom: var(--large_spacing);
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 2rem;
+	padding-bottom: var(--large_spacing);
 }
 h2 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  font-size: 1.8rem;
-  padding-bottom: var(--large_spacing);
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 1.8rem;
+	padding-bottom: var(--large_spacing);
 }
 h3 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  font-size: 1.4rem;
-  padding-bottom: var(--large_spacing);
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 1.4rem;
+	padding-bottom: var(--large_spacing);
 }
 h4 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  font-size: 1.1rem;
-  padding-bottom: var(--large_spacing);
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+	padding-bottom: var(--large_spacing);
 }
 a {
-  font-family: "Quicksand", sans-serif;
+	font-family: "Quicksand", sans-serif;
 }
 
 /* =========================== Section ===========================*/
 section {
-  padding-bottom: var(--large_spacing);
+	padding-bottom: var(--large_spacing);
 }
 /* =========================== Menu ===========================*/
 /* =========================== Burgermenu ===========================*/
 header {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0.5rem;
 }
 .burger_menu {
-<<<<<<< HEAD
 	position: fixed;
 	height: 3rem;
 	width: 3rem;
-=======
-  position: absolute;
-  height: 3rem;
-  width: 3rem;
->>>>>>> 3e4842c3fbe9964a157ab3fc4877c901d236978b
+	position: absolute;
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	height: 3rem;
+	width: 3rem;
 
-  right: 1rem;
-  cursor: pointer;
+	right: 1rem;
+	cursor: pointer;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-  z-index: 10;
+	z-index: 10;
 }
 
 .stroke {
-  position: absolute;
-  top: calc(50%);
-  left: 0;
-  height: 0.3rem;
-  width: 3rem;
-  background: black;
+	position: absolute;
+	top: calc(50%);
+	left: 0;
+	height: 0.3rem;
+	width: 3rem;
+	background: black;
 
-  border-radius: 999px;
-  pointer-events: none;
+	border-radius: 999px;
+	pointer-events: none;
 
-  transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .burger_menu .stroke_top {
-  transform: translateY(-0.6rem);
+	transform: translateY(-0.6rem);
 }
 .burger_menu .stroke_center {
-  transform: translateY(0);
+	transform: translateY(0);
 }
 .burger_menu .stroke_bottom {
-  transform: translateY(0.6rem);
+	transform: translateY(0.6rem);
 }
 
 .burger_menu .stroke_top.openMenu {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .burger_menu .stroke_center.openMenu {
-  transform: translateX(5rem);
-  opacity: 0;
+	transform: translateX(5rem);
+	opacity: 0;
 }
 .burger_menu .stroke_bottom.openMenu {
-  transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 nav ul {
-  top: 0;
-  left: 0;
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  background: #ffd791;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
+	top: 0;
+	left: 0;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background: #ffd791;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
 
-  transition: 0.3s;
+	transition: 0.3s;
 }
 
 nav ul li {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 nav ul li a {
-  color: #4b4b4b;
-  font-size: 3rem;
+	color: #4b4b4b;
+	font-size: 3rem;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #4b4b4b;
+	border-bottom: 2px solid #4b4b4b;
 }
 
 nav ul.openMenu {
-  opacity: 1;
-  pointer-events: all;
-  z-index: 5;
+	opacity: 1;
+	pointer-events: all;
+	z-index: 5;
 }
 
 .hidden {
-  opacity: 0;
-  pointer-events: none;
+	opacity: 0;
+	pointer-events: none;
 }
 
 /* =========================== Main ===========================*/
 main {
-  display: grid;
-  width: 90vw;
-  margin: auto;
+	display: grid;
+	width: 90vw;
+	margin: auto;
 }
 
 ul {
-  list-style-position: outside;
-  list-style-type: disc;
-  padding-left: 2rem;
-  line-height: 2rem;
-  padding-bottom: var(--large_spacing);
+	list-style-position: outside;
+	list-style-type: disc;
+	padding-left: 2rem;
+	line-height: 2rem;
+	padding-bottom: var(--large_spacing);
 }
 
 img {
-  padding-bottom: var(--large_spacing);
+	padding-bottom: var(--large_spacing);
 }
 
 /* =========================== Footer ===========================*/
