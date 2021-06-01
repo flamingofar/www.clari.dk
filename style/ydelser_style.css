@@ -1,7 +1,28 @@
+/* ________________Billeder________________ */
+
 img {
   max-width: 100%;
   height: auto;
+  grid-column: 1/-1;
 }
+
+.pic1 {
+  background: url("../billeder/unsplash/youssef-naddam-iJ2IG8ckCpA-unsplash-vandret.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  padding: 28%;
+}
+
+.pic2 {
+  background: url("../billeder/unsplash/christian-joudrey-aO_jMXTduUE-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  width: 100%;
+  padding: 47% 50%;
+}
+
+/* ____________________________FOOTER KODER_____________________ */
 
 footer {
   width: 100vw;
@@ -11,6 +32,7 @@ footer {
 
   color: var(--black);
 }
+
 footer div,
 p {
   padding: 0 0 var(--medium_spacing) 0;
