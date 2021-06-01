@@ -176,5 +176,13 @@ main {
   width: 90vw;
   margin: auto;
 }
+
+ul {
+  list-style-position: inside;
+  list-style-type: circle;
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+
 /* =========================== Footer ===========================*/
 /* =========================== Knapper ===========================*/
