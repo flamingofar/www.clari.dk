@@ -75,19 +75,10 @@ footer .three_links {
   flex-direction: column;
 }
 
-/* @media (min-width: 1000px) {
-  #second_section .section_wrapper {
-    display: grid;
-    width: 1000px;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-  }
-}
-
-@media (min-width: 620px) {
+@media (min-width: 600px) {
   header nav {
     display: flex;
     align-items: baseline;
     gap: 85px;
   }
-} */
+}
