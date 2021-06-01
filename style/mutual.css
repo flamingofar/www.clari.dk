@@ -163,6 +163,7 @@ nav ul li a:hover {
 nav ul.openMenu {
   opacity: 1;
   pointer-events: all;
+  z-index: 5;
 }
 
 .hidden {
