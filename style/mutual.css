@@ -189,9 +189,9 @@ nav ul.openMenu {
 main {
 	display: grid;
 	grid-template-columns:
-		minmax(1rem, 1fr)
+		minmax(3rem, 1fr)
 		minmax(auto, 1200px)
-		minmax(1rem, 1fr);
+		minmax(3rem, 1fr);
 	margin: auto;
 }
 main > * {
