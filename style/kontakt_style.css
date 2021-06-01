@@ -8,7 +8,7 @@ main {
   line-height: 150%;
 }
 
-#section_1 .logo {
+#section_1 .logo2 {
   display: flex;
   justify-content: space-between;
 }
@@ -16,13 +16,14 @@ main {
 #section_1 img {
   height: auto;
   width: 9rem;
+  margin-top: 2rem;
 }
 
 #iframe_div {
   width: 90vw;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: -0.1rem;
+  margin-bottom: 1.9rem;
 }
 
 iframe {
@@ -39,7 +40,6 @@ label,
 input,
 select,
 button {
-  font-family: "Play Fair", serif;
   color: var(--black);
 }
 
@@ -69,7 +69,7 @@ button {
   font-size: 1rem;
   border-radius: 30px;
   border: none;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   margin-top: 1rem;
   justify-self: start;
 }
@@ -81,7 +81,9 @@ button:hover {
 
 /* placerer section 3 (de to billeder) */
 
-.read_more {
+.read_more_container {
+  background-image: url(../assets/img/blade.jpg);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,50 +94,80 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-.banner1 {
+.read_more_container div {
   width: 100%;
-  background: rgba(255, 215, 145, 0.61);
-  text-align: center;
-  transition-duration: 0.4s;
-}
-
-.banner1:hover {
-  font-size: 120%;
-}
-
-.banner2 {
-  width: 100%;
-  height: auto;
+  padding: 0.2rem 0;
   background: rgba(96, 148, 204, 0.61);
   text-align: center;
-  transition: all 0.4s;
-  transition-duration: 0.4s;
+  color: black;
 }
 
-.banner2:hover {
-  font-size: 120%;
+.about_container {
+  background-image: url(../assets/img/baby.jpg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  height: 15vh;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
-.read_more.about {
-  background-image: url(../assets/img/blade.jpg);
+.about_container div {
+  width: 100%;
+  padding: 0.2rem 0;
+  background: rgba(255, 215, 145, 0.61);
+  color: white;
+
+  text-align: center;
 }
 
 .read_more.offers {
   background-image: url(../assets/img/baby.jpg);
+  background-position: 0rem -3.3rem;
 }
-
-.read_more.about a {
-  color: white;
+*/ .read_more.about a {
+  color: black;
 }
 .read_more.offers a {
-  color: #ffd791;
+  color: white;
 }
 
 #section_2 h3 {
-  margin-bottom: 7vw;
+  margin-bottom: 0.7vw;
   letter-spacing: 0.6vw;
 }
 
 #section_3 h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
+
+  color: var(--black);
+}
+footer div,
+p {
+  padding: 0 0 var(--medium_spacing) 0;
+}
+
+footer p,
+a {
+  color: var(--black);
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer .three_links {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
