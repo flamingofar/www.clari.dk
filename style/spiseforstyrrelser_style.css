@@ -16,3 +16,8 @@
 #raad_section {
   background-color: #6094cc;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
