@@ -78,3 +78,6 @@ footer .three_links {
   justify-content: start;
   flex-direction: column;
 }
+
+@media screen and (min-width: 600px) {
+}
