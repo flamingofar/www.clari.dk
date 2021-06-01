@@ -308,6 +308,10 @@ footer .three_links {
     align-items: start;
   }
 
+  .form_wrapper {
+    margin-left: 1.47rem;
+  }
+
   input,
   select,
   textarea {
@@ -325,5 +329,16 @@ footer .three_links {
 
   button {
     justify-self: end;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
   }
+
+.kontakt_tekst {
+  margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+#section_3 .wrapper_final {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
