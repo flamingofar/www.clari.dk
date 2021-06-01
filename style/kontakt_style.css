@@ -3,9 +3,22 @@ main {
   margin: auto;
 }
 
+#section_1 p {
+  letter-spacing: 0.15rem;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+
+#section_1 h2 {
+  letter-spacing: 1.6vw;
+  font-size: 5.3vw;
+}
+
 #iframe_div {
   width: 90vw;
   margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 iframe {
@@ -19,6 +32,8 @@ select,
 button {
   display: block;
   font-family: "Play Fair", serif;
+  letter-spacing: 0.6vw;
+  color: var(--black);
 }
 
 /* styler kontaktformularen */
@@ -26,7 +41,7 @@ input,
 select,
 textarea {
   height: 2rem;
-  width: 12rem;
+  width: 100%;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
   border: none;
@@ -92,4 +107,9 @@ button:hover {
 }
 .read_more.offers a {
   color: #ffd791;
+}
+
+#section_2 h3 {
+  margin-bottom: 7vw;
+  letter-spacing: 0.6vw;
 }
