@@ -1,19 +1,26 @@
+#section_1 .col {
+  margin-bottom: 3rem;
+}
+
 #section_1 .col1 {
   width: 100%;
-  height: 100vh;
-  background-image: url(../billeder/p1copy.jpg);
+  height: 50vh;
+  background-image: url(../assets/simon-rae-IGOBsR93I7Y-unsplash.jpg);
   background-size: cover;
-  background-position: 65% 10%;
+  background-position: 65% 50%;
   place-content: center;
+  margin-bottom: 3rem;
 }
 
 #section_2 {
   background-color: #234e8081;
-  padding-bottom: 16px;
+  grid-column: 1/-1;
+  padding: 2rem;
+  margin-bottom: 3rem;
 }
 
 #section_3 {
-  padding-top: 16;
+  margin-bottom: 3rem;
 }
 
 footer {
