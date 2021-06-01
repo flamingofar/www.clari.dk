@@ -30,3 +30,12 @@ footer .three_links {
   justify-content: start;
   flex-direction: column;
 }
+
+#section_1 .section_wrapper {
+  width: 100%;
+  background: rgba(196, 193, 193, 0.58);
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
