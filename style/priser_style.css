@@ -67,3 +67,18 @@ footer .three_links {
   justify-content: start;
   flex-direction: column;
 }
+
+/*___________________ MEDIA QUERY ______________________*/
+
+@media screen and (min-width: 600px) {
+  .price_container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .price {
+    height: 27rem;
+    max-width: 17rem;
+    padding: 1.5rem;
+    padding-top: 6.5rem;
+  }
+}
