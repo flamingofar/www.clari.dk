@@ -24,8 +24,26 @@
   padding: 1rem 1rem;
 }
 
-img {
+/* img {
   max-width: 100%;
+  height: auto;
+} */
+
+.pic1 {
+  content: url(../billeder/unsplash/deniz-z8tXhG946s0-unsplash.jpg);
+  width: 100%;
+  height: auto;
+}
+
+.pic2 {
+  content: url(../billeder/unsplash/nathan-dumlao-_-prYEEf0v4-unsplash.jpg);
+  width: 100%;
+  height: auto;
+}
+
+.pic3 {
+  content: url(../billeder/unsplash/andreas-dress-Eyvbop4Rheg-unsplash.jpg);
+  width: 100%;
   height: auto;
 }
 
