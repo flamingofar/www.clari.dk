@@ -1,13 +1,19 @@
 #anoreksi_section {
   background-color: #cca46082;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 #bulimi_section {
   background-color: #6094cc85;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 #overspisning_section {
   background-color: #80622f9c;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 #selvhad_section {
@@ -15,6 +21,7 @@
 
 #raad_section {
   background-color: #6094cc;
+  padding: 1rem 1rem;
 }
 
 img {
