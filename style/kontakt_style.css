@@ -200,7 +200,7 @@ footer .three_links {
   header .logo {
     width: 20rem;
     height: 7.32rem;
-    background: url(../assets/img/logo_komplet.png);
+    background: url(../assets/img/logo_komplet.svg);
     background-size: cover;
   }
 
@@ -250,5 +250,33 @@ footer .three_links {
     opacity: 1;
     pointer-events: all;
   }
+
+  /* =========================== sectioner ===========================*/
+
+  .flex_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .contact_flex {
+    display: flex;
+  }
+
+  .logo2 {
+    flex-direction: column;
+  }
+
+  #iframe_div {
+    width: 100%;
+    margin: auto;
+    margin-top: -0.1rem;
+    margin-bottom: 1.9rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    padding: 5% 0% 15% 8%;
+  }
 }
-/* =========================== sectioner ===========================*/
