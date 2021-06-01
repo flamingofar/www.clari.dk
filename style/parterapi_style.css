@@ -42,6 +42,26 @@
 	padding-bottom: 80%;
 }
 
+#section_3 {
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns:
+		minmax(3rem, 1fr)
+		minmax(auto, 1200px)
+		minmax(3rem, 1fr);
+
+	background: var(--secondary);
+	padding: 3rem 0;
+	margin-bottom: 2rem;
+}
+
+#section_3 h3 {
+	grid-column: 2;
+}
+#section_3 .section_wrapper {
+	grid-column: 2;
+}
+
 @media screen and (min-width: 600px) {
 	#section_1 .section_wrapper {
 		width: 100%;
@@ -51,7 +71,6 @@
 		align-items: center;
 	}
 	#section_1 .section_wrapper h4 {
-		color: var(--black);
 		font-size: 1.5rem;
 		padding-bottom: 0;
 	}
