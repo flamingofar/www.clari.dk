@@ -15,13 +15,12 @@ img {
   padding-bottom: 0;
 }
 
-#section_5 img {
+#section_5 {
   width: 100%;
-  height: 35vw;
+  height: 30vh;
   background-size: cover;
-  background-image: url(../billeder/nils-unsplash.jpg);
-  background-position: 98% 10%;
-  place-content: center;
+  background-image: url(../assets/nil1.jpg);
+  background-position: 40% 45%;
 }
 
 #section_6 ul {

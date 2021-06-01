@@ -212,7 +212,8 @@ img {
 
 /* =========================== Footer ===========================*/
 footer {
-	width: 100vw;
+	grid-column: 1/-1;
+	width: 100%;
 	height: auto;
 	background: var(--accent_light);
 	padding: var(--medium_spacing);

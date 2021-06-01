@@ -1,5 +1,9 @@
 /** @format */
 
+#section_1 {
+	grid-column: 1/ -1;
+}
+
 #section_1 .section_wrapper {
 	background: var(--tertiary);
 	display: flex;
@@ -19,16 +23,21 @@
 #section_2 h3 {
 	display: block;
 	text-align: center;
+	padding-bottom: 2rem;
 }
 #section_2 .col {
 	background: url("../assets/img/hands_four.png");
 	background-size: cover;
 	width: 100%;
-	padding: 50%;
+	padding-bottom: 50%;
 }
 #section_2 .col1 p {
 	padding: var(--x-large_spacing);
 }
-#section_2 .col1 p {
-	padding: var(--x-large_spacing);
+#section_2 .col1 .pic {
+	background: url("../assets/img/beach.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-bottom: 80%;
 }
