@@ -1,5 +1,9 @@
+#section_1 {
+  margin-top: 1rem;
+}
+
 #section_1 .col {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 #section_1 .col1 {
@@ -24,10 +28,17 @@
 }
 
 @media screen and (min-width: 600px) {
-  #section_1 .section_wrapper .col1 {
+  #section_1 .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4.5rem;
+  }
+
+  #section_2 {
+    grid-template-columns:
+      minmax(3rem, 1fr)
+      minmax(auto, 1200px)
+      minmax(3rem, 1fr);
   }
 
   #section_2 .section_wrapper {

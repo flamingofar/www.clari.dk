@@ -8,7 +8,7 @@
 	/* =========================== Farver ===========================*/
 	--primary: #cca460;
 	--secundary: #80622f;
-	--tertiary: #6094cc;
+	--tertiary: rgba(96, 148, 204, 0.5);
 	--accent_light: #efe5d3;
 	--accent_dark: #234f80;
 	--white: #fff;
