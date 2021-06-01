@@ -190,7 +190,7 @@ main {
 	display: grid;
 	grid-template-columns:
 		minmax(1rem, 1fr)
-		minmax(auto, 1000px)
+		minmax(auto, 1200px)
 		minmax(1rem, 1fr);
 	margin: auto;
 }
@@ -240,9 +240,3 @@ footer .three_links {
 	flex-direction: column;
 }
 /* =========================== Mediaqueries ===========================*/
-
-@media screen and (min-width: 600px) {
-	body {
-		background-color: olive;
-	}
-}
