@@ -9,18 +9,39 @@ img {
   background-image: url(../billeder/p1copy.jpg);
   background-size: cover;
   background-position: 65% 80%;
+  margin-bottom: 3rem;
+}
+
+#section_2 {
+  margin-bottom: 3rem;
+}
+
+#section_3 {
+  margin-bottom: 3rem;
 }
 
 #section_3 ul {
   padding-bottom: 0;
 }
 
+#section_4 {
+  margin-bottom: 3rem;
+}
+
 #section_5 {
   width: 100%;
   height: 30vh;
+  grid-column: 1/-1;
+  padding: 2rem;
   background-size: cover;
   background-image: url(../assets/nil1.jpg);
   background-position: 40% 45%;
+  margin-bottom: 3rem;
+}
+
+#section_6 {
+  padding-bottom: 0;
+  margin-bottom: 3rem;
 }
 
 #section_6 ul {

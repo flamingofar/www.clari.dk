@@ -1,3 +1,5 @@
+/* ________________Box størrelser________________ */
+
 .price_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11,6 +13,8 @@
   justify-self: center;
   padding-top: 4.5rem;
 }
+
+/* ________________Box farver________________ */
 
 .box_1 {
   background-color: #cca460;
@@ -33,6 +37,8 @@
   background-color: #234f80;
   color: white;
 }
+
+/* ____________________________FOOTER KODER_____________________ */
 
 footer {
   width: 100vw;
