@@ -22,13 +22,7 @@
   margin-bottom: 3rem;
 }
 
-@media (min-width: 600px) {
-  header nav {
-    display: flex;
-    align-items: baseline;
-    gap: 85px;
-  }
-
+@media screen and (min-width: 600px) {
   #section_1 .col {
     margin-bottom: 3rem;
   }
