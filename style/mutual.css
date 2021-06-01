@@ -42,9 +42,10 @@
 
 body,
 p,
-li,
 label {
-  font-family: "cormorant_garamondmedium", serif;
+  font-family: "cormorant_garamondmedium", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
 }
 
 /* =========================== Overskrifter ===========================*/
