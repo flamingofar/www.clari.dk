@@ -5,324 +5,316 @@
  */
 
 :root {
-	/* =========================== Farver ===========================*/
-	--primary: #cca460;
-	--secundary: #80622f;
-	--tertiary: #6094cc;
-	--accent_light: #efe5d3;
-	--accent_dark: #234f80;
-	--white: #fff;
-	--black: #000;
+  /* =========================== Farver ===========================*/
+  --primary: #cca460;
+  --secundary: #80622f;
+  --tertiary: #6094cc;
+  --accent_light: #efe5d3;
+  --accent_dark: #234f80;
+  --white: #fff;
+  --black: #000;
 
-	/* =========================== Spacing ===========================*/
-	/* Mobile Spaacing */
-	--small_spacing: 0.5rem;
-	--medium_spacing: 1rem;
-	--large_spacing: 1.5rem;
-	--x-large_spacing: 2rem;
-	/* Desktop Spaacing */
-	--desktop-small_spacing: 0.5rem;
-	--desktop-medium_spacing: 1rem;
-	--desktop-large_spacing: 1.5rem;
-	--desktop-x-large_spacing: 2rem;
+  /* =========================== Spacing ===========================*/
+  /* Mobile Spaacing */
+  --small_spacing: 0.5rem;
+  --medium_spacing: 1rem;
+  --large_spacing: 1.5rem;
+  --x-large_spacing: 2rem;
+  /* Desktop Spaacing */
+  --desktop-small_spacing: 0.5rem;
+  --desktop-medium_spacing: 1rem;
+  --desktop-large_spacing: 1.5rem;
+  --desktop-x-large_spacing: 2rem;
 }
 
 /* =========================== Fonte ===========================*/
 
-@font-face {
-	font-family: "cormorant_garamondmedium";
-	src: url("../fonts/cormorantgaramond-medium-webfont.woff2") format("woff2"),
-		url("../fonts/cormorantgaramond-medium-webfont.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
-
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-	text-decoration: none;
+  text-decoration: none;
 }
 
 body,
 p,
 label,
 form {
-	font-family: "Montserrat", sans-serif;
-	font-size: 0.9rem;
-	line-height: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
 }
 
 /* =========================== Overskrifter ===========================*/
 
 h1 {
-	font-family: "Quicksand", sans-serif;
-	font-weight: 300;
-	font-size: 2rem;
-	padding-bottom: var(--large_spacing);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  padding-bottom: var(--large_spacing);
 }
 h2 {
-	font-family: "Quicksand", sans-serif;
-	font-weight: 300;
-	font-size: 1.8rem;
-	padding-bottom: var(--large_spacing);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  padding-bottom: var(--large_spacing);
 }
 h3 {
-	font-family: "Quicksand", sans-serif;
-	font-weight: 300;
-	font-size: 1.4rem;
-	padding-bottom: var(--large_spacing);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding-bottom: var(--large_spacing);
 }
 h4 {
-	font-family: "Quicksand", sans-serif;
-	font-weight: 300;
-	font-size: 1.1rem;
-	padding-bottom: var(--large_spacing);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-bottom: var(--large_spacing);
 }
 a {
-	font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* =========================== Section ===========================*/
 section {
-	padding-bottom: var(--large_spacing);
+  padding-bottom: var(--large_spacing);
 }
 /* =========================== Menu ===========================*/
 /* =========================== Burgermenu ===========================*/
 header {
-	display: flex;
-	justify-content: space-between;
-	padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
 
-	grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 header .logo {
-	width: 10rem;
-	height: 3.26rem;
-	background: url(../assets/img/logo_mobil.png);
-	background-size: cover;
+  width: 12.25rem;
+  height: 4rem;
+  background: url(../assets/img/logo_mobil.png);
+  background-size: cover;
 }
 .burger_menu {
-	position: fixed;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
-	height: 3rem;
-	width: 3rem;
+  position: fixed;
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
 
-	right: 1rem;
-	cursor: pointer;
+  right: 1rem;
+  cursor: pointer;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-	z-index: 10;
+  z-index: 10;
 }
 
 .stroke {
-	position: absolute;
-	top: calc(50%);
-	left: 0;
-	height: 0.3rem;
-	width: 3rem;
-	background: black;
+  position: absolute;
+  top: calc(50%);
+  left: 0;
+  height: 0.3rem;
+  width: 3rem;
+  background: black;
 
-	border-radius: 999px;
-	pointer-events: none;
+  border-radius: 999px;
+  pointer-events: none;
 
-	transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .burger_menu .stroke_top {
-	transform: translateY(-0.6rem);
+  transform: translateY(-0.6rem);
 }
 .burger_menu .stroke_center {
-	transform: translateY(0);
+  transform: translateY(0);
 }
 .burger_menu .stroke_bottom {
-	transform: translateY(0.6rem);
+  transform: translateY(0.6rem);
 }
 
 .burger_menu .stroke_top.openMenu {
-	transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .burger_menu .stroke_center.openMenu {
-	transform: translateX(5rem);
-	opacity: 0;
+  transform: translateX(5rem);
+  opacity: 0;
 }
 .burger_menu .stroke_bottom.openMenu {
-	transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 nav ul {
-	top: 0;
-	left: 0;
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	background: #ffd791;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	list-style: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: #ffd791;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 
-	transition: 0.3s;
+  transition: 0.3s;
 }
 
 nav ul li {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 nav ul li a {
-	color: #4b4b4b;
-	font-size: 3rem;
+  color: #4b4b4b;
+  font-size: 3rem;
 }
 nav ul li a:hover {
-	border-bottom: 2px solid #4b4b4b;
+  border-bottom: 2px solid #4b4b4b;
 }
 
 nav ul.openMenu {
-	opacity: 1;
-	pointer-events: all;
-	z-index: 5;
+  opacity: 1;
+  pointer-events: all;
+  z-index: 5;
 }
 
 .hidden {
-	opacity: 0;
-	pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* =========================== Main ===========================*/
 main {
-	display: grid;
-	grid-template-columns:
-		minmax(3rem, 1fr)
-		minmax(auto, 1200px)
-		minmax(3rem, 1fr);
-	margin: auto;
+  display: grid;
+  grid-template-columns:
+    minmax(3rem, 1fr)
+    minmax(auto, 1200px)
+    minmax(3rem, 1fr);
+  margin: auto;
 }
 main > * {
-	grid-column: 2;
+  grid-column: 2;
 }
 
 ul {
-	list-style-position: outside;
-	list-style-type: disc;
-	padding-left: 2rem;
-	line-height: 2rem;
-	padding-bottom: var(--large_spacing);
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-left: 2rem;
+  line-height: 2rem;
+  padding-bottom: var(--large_spacing);
 }
 
 img {
-	padding-bottom: var(--large_spacing);
+  padding-bottom: var(--large_spacing);
 }
 
 /* =========================== Footer ===========================*/
 footer {
-	grid-column: 1/-1;
-	width: 100%;
-	height: auto;
-	background: var(--accent_light);
-	padding: var(--medium_spacing);
+  grid-column: 1/-1;
+  width: 100%;
+  height: auto;
+  background: var(--accent_light);
+  padding: var(--medium_spacing);
 
-	color: var(--black);
+  color: var(--black);
 }
 footer div,
 p {
-	padding: 0 0 var(--medium_spacing) 0;
+  padding: 0 0 var(--medium_spacing) 0;
 }
 
 footer p,
 a {
-	color: var(--black);
+  color: var(--black);
 }
 
 footer a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer .three_links {
-	display: flex;
-	justify-content: start;
-	flex-direction: column;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
 /* =========================== Mediaqueries ===========================*/
 @media screen and (min-width: 600px) {
-	/* =========================== Footer ===========================*/
-	footer {
-		padding-inline: 8rem;
-		padding-top: 4rem;
-	}
-	.footer_wrapper {
-		display: grid;
-		grid-auto-flow: row;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(3, 1fr);
-		grid-auto-flow: column;
-		gap: 0 4rem;
-	}
+  /* =========================== Footer ===========================*/
+  footer {
+    padding-inline: 8rem;
+    padding-top: 4rem;
+  }
+  .footer_wrapper {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    gap: 0 4rem;
+  }
 
-	/* =========================== Menu ===========================*/
-	/* =========================== Burgermenu ===========================*/
+  /* =========================== Menu ===========================*/
+  /* =========================== Burgermenu ===========================*/
 
-	header .logo {
-		width: 20rem;
-		height: 7.32rem;
-		background: url(../assets/img/logo_komplet.png);
-		background-size: cover;
-	}
+  header .logo {
+    width: 20rem;
+    height: 7.32rem;
+    background: url(../assets/img/logo_komplet.png);
+    background-size: cover;
+  }
 
-	.burger_menu {
-		display: none;
-	}
+  .burger_menu {
+    display: none;
+  }
 
-	nav {
-		display: flex;
-		flex-direction: column;
-		justify-content: end;
-		width: 80vw;
-	}
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 80vw;
+  }
 
-	nav ul {
-		position: static;
-		height: auto;
-		width: 100%;
-		background: none;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: end;
+  nav ul {
+    position: static;
+    height: auto;
+    width: 100%;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
 
-		transition: 0.3s;
-	}
+    transition: 0.3s;
+  }
 
-	nav ul li {
-		margin-bottom: 1rem;
-	}
+  nav ul li {
+    margin-bottom: 1rem;
+  }
 
-	nav ul li a {
-		color: #4b4b4b;
-		font-size: 1rem;
-	}
-	nav ul li a:hover {
-		border-bottom: 2px solid #4b4b4b;
-	}
+  nav ul li a {
+    color: #4b4b4b;
+    font-size: 1rem;
+  }
+  nav ul li a:hover {
+    border-bottom: 2px solid #4b4b4b;
+  }
 
-	nav ul.openMenu {
-		opacity: 1;
-		pointer-events: all;
-		z-index: 5;
-	}
+  nav ul.openMenu {
+    opacity: 1;
+    pointer-events: all;
+    z-index: 5;
+  }
 
-	.hidden {
-		opacity: 1;
-		pointer-events: all;
-	}
+  .hidden {
+    opacity: 1;
+    pointer-events: all;
+  }
 }
