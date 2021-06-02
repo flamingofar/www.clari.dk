@@ -264,7 +264,7 @@ footer .three_links {
 
 	header .logo {
 		margin: 2rem 5rem;
-		width: 10rem;
+		width: 12rem;
 	}
 
 	header .logo {
@@ -304,11 +304,13 @@ footer .three_links {
 
 		transition: all 0.3s;
 		transform-origin: left;
+
+		padding: 0;
 	}
 
 	nav ul li {
 		position: relative;
-		margin-bottom: 1rem;
+		margin-bottom: 0;
 	}
 	nav ul li::after {
 		position: absolute;
