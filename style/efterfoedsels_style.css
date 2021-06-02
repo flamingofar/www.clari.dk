@@ -20,6 +20,8 @@
 
 .section_ul li:not(:last-child) {
   margin-bottom: 1rem;
+  /* padding-left: 1.7rem; */
+  line-height: 2.4rem;
 }
 
 #section_1 .psyko_section {
@@ -200,7 +202,7 @@ footer .three_links {
 
   #section_2 h3 {
     margin-left: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .section_wrapper_3 {
@@ -232,7 +234,7 @@ footer .three_links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 70vh;
+    height: 60vh;
   }
 
   .section_wrapper4 .col1 {
@@ -273,6 +275,14 @@ footer .three_links {
     grid-column: 2/2;
     grid-row: 1/1;
     padding-right: 4rem;
+  }
+
+  #section_4 li {
+    line-height: 166%;
+  }
+
+  .col4 ul {
+    line-height: 2.9rem;
   }
 
   /* -----------sektion 5--------------- */
