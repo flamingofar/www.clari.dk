@@ -242,6 +242,7 @@ footer .three_links {
       minmax(3rem, 1fr)
       minmax(auto, 1200px)
       minmax(3rem, 1fr);
+    height: 39rem;
   }
 
   .grid_wrapper {
