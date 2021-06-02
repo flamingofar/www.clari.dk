@@ -16,16 +16,35 @@
 
 #section_7 h4 {
   text-align: center;
+  padding-bottom: 0rem;
 }
 
 .section_ul li:not(:last-child) {
   margin-bottom: 1rem;
-  /* padding-left: 1.7rem; */
   line-height: 2.4rem;
+}
+
+#section_3 .section_wrapper4 {
+  line-height: 3rem;
+  padding-bottom: 0;
 }
 
 #section_1 .psyko_section {
   margin-top: 0;
+}
+
+#section_6 ul {
+  padding-bottom: 0%;
+}
+
+#section_6 li {
+  padding-bottom: 1rem;
+}
+
+#section_7 .col,
+.col1,
+.col2 {
+  padding-bottom: 1rem;
 }
 
 /* -----------------ligger alle billeder ind -----------------*/
@@ -48,7 +67,7 @@
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
-  margin-bottom: -2rem;
+  margin-bottom: 3rem;
   margin-top: 2rem;
 }
 
@@ -59,7 +78,7 @@
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
   margin-top: 2rem;
 }
 
@@ -71,7 +90,6 @@
 #section_2 {
   grid-column: 1/-1;
   padding: 2rem;
-  margin-bottom: 3rem;
 }
 
 #section_3 {
@@ -363,5 +381,9 @@ footer .three_links {
   .section_wrapper7 {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  #section_7 .col {
+    padding-right: 4rem;
   }
 }
