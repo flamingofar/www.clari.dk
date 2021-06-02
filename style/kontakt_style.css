@@ -1,42 +1,44 @@
+/** @format */
+
 h2 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  font-size: 1.8rem;
-  padding-bottom: var(--large_spacing);
-  padding-top: 2rem;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 1.8rem;
+	padding-bottom: var(--large_spacing);
+	padding-top: 2rem;
 }
 
 #section_1 p {
-  margin-top: 2.5rem;
-  line-height: 150%;
+	margin-top: 2.5rem;
+	line-height: 150%;
 }
 
 #section_1 .logo2 {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 #section_1 img {
-  height: auto;
-  width: 9rem;
-  margin-top: 2rem;
+	height: auto;
+	width: 9rem;
+	margin-top: 2rem;
 }
 
 #iframe_div {
-  width: 100%;
-  margin: auto;
-  margin-top: -0.1rem;
-  margin-bottom: 1.9rem;
+	width: 100%;
+	margin: auto;
+	margin-top: -0.1rem;
+	margin-bottom: 1.9rem;
 }
 
 iframe {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 form {
-  display: grid;
-  justify-self: start;
+	display: grid;
+	justify-self: start;
 }
 
 /* sætter kontaktformular-elementerne nedenunder hinanden */
@@ -44,321 +46,264 @@ label,
 input,
 select,
 button {
-  color: var(--black);
+	color: var(--black);
 }
 
 /* styler kontaktformularen */
 input,
 select,
 textarea {
-  height: 2rem;
-  width: 100%;
-  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-  border: none;
-  margin-bottom: 1rem;
+	height: 2rem;
+	width: 100%;
+	box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 1rem;
 }
 
 textarea {
-  height: 8rem;
-  resize: none;
+	height: 8rem;
+	resize: none;
 }
 
 /* styling og placering af indsend-knap */
 button {
-  background-color: #6094cc;
-  color: white;
-  transition-duration: 0.4s;
-  padding: 15px 32px;
-  font-size: 1rem;
-  border-radius: 30px;
-  border: none;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
-  justify-self: start;
+	background-color: var(--tertiary);
+	color: white;
+	transition-duration: 0.4s;
+	padding: 15px 32px;
+	font-size: 1rem;
+	border-radius: 30px;
+	border: none;
+	margin-bottom: 3rem;
+	margin-top: 1rem;
+	justify-self: start;
 }
 
 button:hover {
-  background-color: #234f80;
-  color: white;
+	background-color: #234f80;
+	color: white;
 }
 
 /* placerer section 3 (de to billeder) */
 
 .read_more_container {
-  background-image: url(../assets/img/blade.jpg);
+	background-image: url(../assets/img/blade.jpg);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  background-size: cover;
-  height: 15vh;
-  width: 100%;
-  margin-bottom: 1rem;
+	background-size: cover;
+	height: 15vh;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
 .read_more_container div {
-  width: 100%;
-  padding: 0.2rem 0;
-  background: rgba(96, 148, 204, 0.61);
-  text-align: center;
-  color: black;
+	width: 100%;
+	padding: 0.2rem 0;
+	background: var(--tertiary);
+	text-align: center;
+	color: var(--black);
 }
 
 .about_container {
-  background-image: url(../assets/img/baby.jpg);
+	background-image: url(../assets/img/baby.jpg);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  background-size: cover;
-  height: 15vh;
-  width: 100%;
-  margin-bottom: 3rem;
+	background-size: cover;
+	height: 15vh;
+	width: 100%;
+	margin-bottom: 3rem;
 }
 
 .about_container div {
-  width: 100%;
-  padding: 0.2rem 0;
-  background: rgba(255, 215, 145, 0.61);
-  color: white;
+	width: 100%;
+	padding: 0.2rem 0;
+	background: var(--secondary);
+	color: white;
 
-  text-align: center;
+	text-align: center;
 }
 
 .read_more.offers {
-  background-image: url(../assets/img/baby.jpg);
-  background-position: 0rem -3.3rem;
+	background-image: url(../assets/img/baby.jpg);
+	background-position: 0rem -3.3rem;
 }
 */ .read_more.about a {
-  color: black;
+	color: black;
 }
 .read_more.offers a {
-  color: white;
+	color: white;
 }
 
 #section_2 h3 {
-  margin-bottom: 0.7vw;
-  letter-spacing: 0.6vw;
+	margin-bottom: 0.7vw;
+	letter-spacing: 0.6vw;
 }
 
 #section_3 h3 {
-  margin-bottom: 0.1rem;
+	margin-bottom: 0.1rem;
 }
 
 /* =========================== Footer ===========================*/
 
 footer {
-  width: 100vw;
-  height: auto;
-  background: var(--accent_light);
-  padding: var(--medium_spacing);
+	width: 100vw;
+	height: auto;
+	background: var(--accent_light);
+	padding: var(--medium_spacing);
 
-  color: var(--black);
+	color: var(--black);
 }
 footer div,
 p {
-  padding: 0 0 var(--medium_spacing) 0;
+	padding: 0 0 var(--medium_spacing) 0;
 }
 
 footer p,
 a {
-  color: var(--black);
+	color: var(--black);
 }
 
 footer a {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 footer .three_links {
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
 }
 
 /* =========================== Mediaqueries ===========================*/
 @media screen and (min-width: 600px) {
-  /* =========================== Footer ===========================*/
-  footer {
-    padding-inline: 8rem;
-    padding-top: 4rem;
-  }
-  .footer_wrapper {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-auto-flow: column;
-    gap: 0 4rem;
-  }
+	/* =========================== Footer ===========================*/
+	footer {
+		padding-inline: 8rem;
+		padding-top: 4rem;
+	}
+	.footer_wrapper {
+		display: grid;
+		grid-auto-flow: row;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-auto-flow: column;
+		gap: 0 4rem;
+	}
 
-  /* =========================== Menu ===========================*/
-  /* =========================== Burgermenu ===========================*/
+	/* =========================== maps-funktion + rejseplan  ===========================*/
 
-  header .logo {
-    width: 20rem;
-    height: 7.32rem;
-    background: url(../assets/img/logo_komplet.svg);
-    background-size: cover;
-  }
+	.flex_container {
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+	}
 
-  .burger_menu {
-    display: none;
-  }
+	.contact_flex {
+		display: flex;
+	}
 
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 80vw;
-  }
+	.logo2 {
+		flex-direction: column;
+	}
 
-  nav ul {
-    position: static;
-    height: auto;
-    width: 100%;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: end;
+	#iframe_div {
+		width: 100%;
+		margin: auto;
+		margin-top: -0.1rem;
+		margin-bottom: 1.9rem;
+	}
 
-    transition: 0.3s;
-  }
+	iframe {
+		width: 100%;
+		height: 100%;
+		padding: 5% 0% 10% 8%;
+	}
 
-  nav ul li {
-    margin-bottom: 1rem;
-  }
+	#section_1 img {
+		height: auto;
+		width: 9rem;
+		margin-top: -1rem;
+	}
 
-  nav ul li a {
-    color: #4b4b4b;
-    font-size: 1rem;
-  }
-  nav ul li a:hover {
-    border-bottom: 2px solid #4b4b4b;
-  }
+	/* =========================== maps-funktion + rejseplan  ===========================*/
+	#section_2 h3 {
+		margin-top: 3rem;
+		margin-bottom: 0.7vw;
+	}
 
-  nav ul.openMenu {
-    opacity: 1;
-    pointer-events: all;
-    z-index: 5;
-  }
+	.form_master_wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, fr);
+	}
 
-  .hidden {
-    opacity: 1;
-    pointer-events: all;
-  }
+	.portraet {
+		background-image: url(../assets/img/portraet_endelig.jpg);
+		background-position: 0rem -3.3rem;
+		background-size: cover;
+		padding: 8.5rem;
+		margin-bottom: 8rem;
+		grid-column: 1/1;
+		margin-right: 1rem;
+	}
 
-  /* =========================== maps-funktion + rejseplan  ===========================*/
+	.kontakt_tekst {
+		margin-top: 1rem;
+		margin-right: 4rem;
+		grid-column: 1/1;
+	}
 
-  .flex_container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
+	.form_felt {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
 
-  .contact_flex {
-    display: flex;
-  }
+	.form_wrapper {
+		margin-left: 1.47rem;
+		grid-column: 2/3;
+		grid-row: 1/3;
+	}
 
-  .logo2 {
-    flex-direction: column;
-  }
+	input,
+	select,
+	textarea {
+		height: 2rem;
+		width: 100%;
+		border-radius: 4px;
+		border: none;
+		margin-bottom: 1rem;
+	}
 
-  #iframe_div {
-    width: 100%;
-    margin: auto;
-    margin-top: -0.1rem;
-    margin-bottom: 1.9rem;
-  }
+	textarea {
+		height: 8rem;
+		resize: none;
+	}
 
-  iframe {
-    width: 100%;
-    height: 100%;
-    padding: 5% 0% 10% 8%;
-  }
+	button {
+		justify-self: end;
+	}
 
-  #section_1 img {
-    height: auto;
-    width: 9rem;
-    margin-top: -1rem;
-  }
+	#section_3 .wrapper_final {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 3rem;
+	}
 
-  /* =========================== maps-funktion + rejseplan  ===========================*/
-  #section_2 h3 {
-    margin-top: 3rem;
-    margin-bottom: 0.7vw;
-  }
+	.about_container {
+		height: 20vh;
+		width: 100%;
+	}
 
-  .form_master_wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, fr);
-  }
-
-  .portraet {
-    background-image: url(../assets/img/portraet_endelig.jpg);
-    background-position: 0rem -3.3rem;
-    background-size: cover;
-    padding: 8.5rem;
-    margin-bottom: 8rem;
-    grid-column: 1/1;
-    margin-right: 1rem;
-  }
-
-  .kontakt_tekst {
-    margin-top: 1rem;
-    margin-right: 4rem;
-    grid-column: 1/1;
-  }
-
-  .form_felt {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-
-  .form_wrapper {
-    margin-left: 1.47rem;
-    grid-column: 2/3;
-    grid-row: 1/3;
-  }
-
-  input,
-  select,
-  textarea {
-    height: 2rem;
-    width: 100%;
-    border-radius: 4px;
-    border: none;
-    margin-bottom: 1rem;
-  }
-
-  textarea {
-    height: 8rem;
-    resize: none;
-  }
-
-  button {
-    justify-self: end;
-  }
-
-  #section_3 .wrapper_final {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-  }
-
-  .about_container {
-    height: 20vh;
-    width: 100%;
-  }
-
-  .read_more_container {
-    height: 20vh;
-    width: 100%;
-  }
+	.read_more_container {
+		height: 20vh;
+		width: 100%;
+	}
 }
