@@ -20,11 +20,6 @@
 	--medium_spacing: 1rem;
 	--large_spacing: 1.5rem;
 	--x-large_spacing: 2rem;
-	/* Desktop Spaacing */
-	--desktop-small_spacing: 0.5rem;
-	--desktop-medium_spacing: 1rem;
-	--desktop-large_spacing: 1.5rem;
-	--desktop-x-large_spacing: 2rem;
 }
 
 /* =========================== Fonte ===========================*/
@@ -83,30 +78,37 @@ section {
 /* =========================== Menu ===========================*/
 /* =========================== Burgermenu ===========================*/
 header {
+	position: relative;
+	height: auto;
+
 	display: flex;
 	justify-content: space-between;
-	padding: 0.5rem;
+	padding: 0.5rem 0.5rem 0 0.5rem;
 
 	grid-column: 1/-1;
+
+	z-index: 20;
 }
 
 header .logo {
 	width: 10rem;
-	height: 3.26rem;
-	background: url(../assets/img/logo_mobil.svg);
-	background-size: cover;
 }
+
+header .logo_mobile {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+header .logo_desktop {
+	display: none;
+}
+
 .burger_menu {
-	position: fixed;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
+	position: relative;
 	height: 3rem;
 	width: 3rem;
 
+	top: 0;
 	right: 1rem;
 	cursor: pointer;
 
@@ -132,13 +134,13 @@ header .logo {
 }
 
 .burger_menu .stroke_top {
-	transform: translateY(-0.6rem);
+	transform: translateY(-1rem);
 }
 .burger_menu .stroke_center {
-	transform: translateY(0);
+	transform: translateY(-0.2rem);
 }
 .burger_menu .stroke_bottom {
-	transform: translateY(0.6rem);
+	transform: translateY(0.5rem);
 }
 
 .burger_menu .stroke_top.openMenu {
@@ -164,8 +166,6 @@ nav ul {
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-
-	transition: 0.3s;
 }
 
 nav ul li {
@@ -175,9 +175,6 @@ nav ul li {
 nav ul li a {
 	color: #4b4b4b;
 	font-size: 3rem;
-}
-nav ul li a:hover {
-	border-bottom: 2px solid #4b4b4b;
 }
 
 nav ul.openMenu {
@@ -266,10 +263,21 @@ footer .three_links {
 
 	header .logo {
 		margin: 2rem 5rem;
-		width: 10rem;
-		height: 3.66rem;
-		background: url(../assets/img/logo_komplet.svg);
-		background-size: cover;
+		width: 12rem;
+	}
+
+	header .logo {
+		width: 15rem;
+	}
+
+	header .logo_mobile {
+		display: none;
+	}
+	header .logo_desktop {
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: 0;
 	}
 
 	.burger_menu {
@@ -279,7 +287,7 @@ footer .three_links {
 	nav {
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: center;
 		width: 80vw;
 	}
 
@@ -293,19 +301,37 @@ footer .three_links {
 		justify-content: space-evenly;
 		align-items: end;
 
-		transition: 0.3s;
+		transition: all 0.3s;
+		transform-origin: left;
+
+		padding: 0;
 	}
 
 	nav ul li {
-		margin-bottom: 1rem;
+		position: relative;
+		margin-bottom: 0;
+	}
+	nav ul li::after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		content: "";
+		width: 100%;
+		height: 0.1rem;
+		background: #4b4b4b;
+
+		transition: transform 0.3s;
+		transform-origin: right;
+		transform: scaleX(0);
 	}
 
 	nav ul li a {
 		color: #4b4b4b;
 		font-size: 1rem;
 	}
-	nav ul li a:hover {
-		border-bottom: 2px solid #4b4b4b;
+	nav ul li:hover::after {
+		transform-origin: left;
+		transform: scaleX(1);
 	}
 
 	nav ul.openMenu {

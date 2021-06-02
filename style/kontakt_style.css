@@ -1,3 +1,5 @@
+/** @format */
+
 h2 {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
@@ -66,7 +68,7 @@ textarea {
 
 /* styling og placering af indsend-knap */
 button {
-  background-color: #6094cc;
+  background-color: var(--tertiary);
   color: white;
   transition-duration: 0.4s;
   padding: 15px 32px;
@@ -86,7 +88,7 @@ button:hover {
 /* placerer section 3 (de to billeder) */
 
 .read_more_container {
-  background-image: url(../assets/img/blade.jpg);
+  background-image: url(../assets/img/webP/leafes.webp);
 
   display: flex;
   justify-content: center;
@@ -101,13 +103,13 @@ button:hover {
 .read_more_container div {
   width: 100%;
   padding: 0.2rem 0;
-  background: rgba(96, 148, 204, 0.61);
+  background: var(--tertiary);
   text-align: center;
-  color: black;
+  color: var(--black);
 }
 
 .about_container {
-  background-image: url(../assets/img/baby.jpg);
+  background-image: url(../assets/img/webP/baby.webp);
 
   display: flex;
   justify-content: center;
@@ -122,14 +124,14 @@ button:hover {
 .about_container div {
   width: 100%;
   padding: 0.2rem 0;
-  background: rgba(255, 215, 145, 0.61);
+  background: var(--secondary);
   color: white;
 
   text-align: center;
 }
 
 .read_more.offers {
-  background-image: url(../assets/img/baby.jpg);
+  background-image: url(../assets/img/webP/baby.webp);
   background-position: 0rem -3.3rem;
 }
 */ .read_more.about a {
@@ -194,63 +196,6 @@ footer .three_links {
     gap: 0 4rem;
   }
 
-  /* =========================== Menu ===========================*/
-  /* =========================== Burgermenu ===========================*/
-
-  header .logo {
-    width: 20rem;
-    height: 7.32rem;
-    background: url(../assets/img/logo_komplet.svg);
-    background-size: cover;
-  }
-
-  .burger_menu {
-    display: none;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 80vw;
-  }
-
-  nav ul {
-    position: static;
-    height: auto;
-    width: 100%;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: end;
-
-    transition: 0.3s;
-  }
-
-  nav ul li {
-    margin-bottom: 1rem;
-  }
-
-  nav ul li a {
-    color: #4b4b4b;
-    font-size: 1rem;
-  }
-  nav ul li a:hover {
-    border-bottom: 2px solid #4b4b4b;
-  }
-
-  nav ul.openMenu {
-    opacity: 1;
-    pointer-events: all;
-    z-index: 5;
-  }
-
-  .hidden {
-    opacity: 1;
-    pointer-events: all;
-  }
-
   /* =========================== maps-funktion + rejseplan  ===========================*/
 
   .flex_container {
@@ -299,9 +244,9 @@ footer .three_links {
   }
 
   .portraet {
-    background-image: url(../assets/img/portraet_endelig.jpg);
-    background-position: 0rem -6.3rem;
-    background-size: 120%;
+    background-image: url(../assets/img/webP/ac_near.webp);
+    background-position: 0rem -3.3rem;
+    background-size: cover;
     padding: 8.5rem;
     margin-bottom: 8rem;
     grid-column: 1/1;

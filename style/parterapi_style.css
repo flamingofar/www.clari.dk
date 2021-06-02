@@ -26,7 +26,7 @@
 	padding-bottom: 2rem;
 }
 #section_2 .col {
-	background: url("../assets/img/hands_four.png");
+	background: url("../assets/img/webP/hands_four.webp");
 	background-size: cover;
 	width: 100%;
 	padding-bottom: 50%;
@@ -35,7 +35,7 @@
 	padding: var(--x-large_spacing);
 }
 #section_2 .col1 .pic {
-	background: url("../assets/img/beach.png");
+	background: url("../assets/img/webP/beach.webp");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
