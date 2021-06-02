@@ -31,7 +31,7 @@
 .pic1 {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/hoe.jpg);
+  background-image: url(../assets/img/webP/bush.webp);
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
@@ -42,7 +42,7 @@
 .pic2 {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/bjerg.jpg);
+  background-image: url(../assets/img/webP/bjerg.webp);
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
@@ -53,7 +53,7 @@
 .pic3 {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/heander.jpg);
+  background-image: url(../assets/img/webP/hands_four.webp);
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
