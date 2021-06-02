@@ -288,7 +288,7 @@ footer .three_links {
 	nav {
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: center;
 		width: 80vw;
 	}
 
