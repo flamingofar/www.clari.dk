@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-li:not(:last-child) {
+.section_ul li:not(:last-child) {
   margin-bottom: 1rem;
 }
 
@@ -130,6 +130,10 @@ footer .three_links {
 /* --------------media------------ */
 
 @media screen and (min-width: 600px) {
+  li {
+    margin: 0;
+  }
+
   #section_1 .col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
