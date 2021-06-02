@@ -387,4 +387,10 @@ footer .three_links {
   #section_7 .col {
     padding-right: 4rem;
   }
+
+  #section_7 .col,
+  .col1,
+  .col2 {
+    padding-bottom: 0rem;
+  }
 }
