@@ -5,62 +5,59 @@
  */
 
 img {
-	max-width: 100%;
-	height: auto;
-	grid-column: 1/-1;
+  max-width: 100%;
+  height: auto;
+  grid-column: 1/-1;
 }
 
 .pic1 {
-	background: url("../assets/img/webP/hands_two.webp");
-	background-size: cover;
-	background-position: 50% 50%;
-	width: 100%;
-	padding: 28%;
+  background: url("../assets/img/webP/hands_two.webp");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  padding: 28%;
 }
 
 .pic2 {
-	background: url("../assets/img/webP/sprouts.webp");
-	background-size: cover;
-	background-position: 50% 0%;
-	width: 100%;
-	padding: 47% 50%;
+  background: url("../assets/img/webP/sprouts.webp");
+  background-size: cover;
+  background-position: 50% 0%;
+  width: 100%;
+  padding: 47% 50%;
 }
 
 /*TODO Banner Video*/
 .pic3 {
-	background: url("../billeder/egne/screenshot_video.JPG");
-	background-size: cover;
-	background-position: 54% 0%;
-	width: 100%;
-	padding: 30% 50%;
-	grid-area: 1/1;
+  width: 100%;
+  padding: 30% 50%;
+  grid-area: 1/1;
 }
 
 .section3_wrapper {
-	display: grid;
+  display: grid;
 }
 
 .section3_wrapper h3 {
 }
 
 #section_1 .section_wrapper {
-	width: 100%;
-	background: rgba(196, 193, 193, 0.58);
-	padding-top: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
-	text-align: center;
+  width: 100%;
+  background: rgba(196, 193, 193, 0.58);
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
 }
 
 @media screen and (min-width: 600px) {
-	#section_2 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
+  #section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-	#section_3 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 3rem;
-	}
+  #section_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
 }
