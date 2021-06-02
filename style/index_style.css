@@ -3,7 +3,7 @@
 	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: url(../assets/img/forside_ac.png),
+	background: url(../assets/img/webP/forside_ac.webp),
 		linear-gradient(to left, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0));
 	background-size: 130%;
 	background-position: -8rem -5rem;
@@ -100,7 +100,7 @@
 }
 
 #section_3 .box_1 {
-	background: url("/assets/img/beach.png");
+	background: url("/assets/img/webP/beach.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -108,7 +108,7 @@
 	background: rgba(204, 164, 96, 0.71);
 }
 #section_3 .box_2 {
-	background: url("/assets/img/bush.png");
+	background: url("/assets/img/webP/bush.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -116,7 +116,7 @@
 	background: rgba(128, 98, 47, 0.71);
 }
 #section_3 .box_3 {
-	background: url("/assets/img/baby_feet.png");
+	background: url("/assets/img/webP/baby_feet.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -124,7 +124,7 @@
 	background: rgba(35, 78, 128, 0.71);
 }
 #section_3 .box_4 {
-	background: url("/assets/img/sprouts.png");
+	background: url("/assets/img/webP/sprouts.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -132,7 +132,7 @@
 	background: rgba(128, 98, 47, 0.71);
 }
 #section_3 .box_5 {
-	background: url("/assets/img/beach_mindfulness.png");
+	background: url("/assets/img/webP/beach_mindfulness.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -140,7 +140,7 @@
 	background: rgba(96, 148, 204, 0.71);
 }
 #section_3 .box_6 {
-	background: url("/assets/img/straw.png");
+	background: url("/assets/img/webP/straw.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -191,7 +191,7 @@
 		grid-template-columns: repeat(5, 1fr);
 
 		height: 90vh;
-		background: url(../assets/img/forside_ac.png),
+		background: url(../assets/img/webP/forside_ac.webp),
 			linear-gradient(to left, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0));
 		background-size: 130%;
 		background-position: -30rem -20rem;

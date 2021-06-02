@@ -88,7 +88,7 @@ button:hover {
 /* placerer section 3 (de to billeder) */
 
 .read_more_container {
-	background-image: url(../assets/img/blade.jpg);
+	background-image: url(../assets/img/webP/leafes.webp);
 
 	display: flex;
 	justify-content: center;
@@ -109,7 +109,7 @@ button:hover {
 }
 
 .about_container {
-	background-image: url(../assets/img/baby.jpg);
+	background-image: url(../assets/img/webP/baby.webp);
 
 	display: flex;
 	justify-content: center;
@@ -131,7 +131,7 @@ button:hover {
 }
 
 .read_more.offers {
-	background-image: url(../assets/img/baby.jpg);
+	background-image: url(../assets/img/webP/baby.webp);
 	background-position: 0rem -3.3rem;
 }
 */ .read_more.about a {
@@ -244,7 +244,7 @@ footer .three_links {
 	}
 
 	.portraet {
-		background-image: url(../assets/img/portraet_endelig.jpg);
+		background-image: url(../assets/img/webP/ac_near.webp);
 		background-position: 0rem -3.3rem;
 		background-size: cover;
 		padding: 8.5rem;

@@ -11,7 +11,7 @@ img {
 }
 
 .pic1 {
-	background: url("../billeder/unsplash/youssef-naddam-iJ2IG8ckCpA-unsplash-vandret.jpg");
+	background: url("../assets/img/webP/hands_two.webp");
 	background-size: cover;
 	background-position: 50% 50%;
 	width: 100%;
@@ -19,13 +19,14 @@ img {
 }
 
 .pic2 {
-	background: url("../billeder/unsplash/christian-joudrey-aO_jMXTduUE-unsplash.jpg");
+	background: url("../assets/img/webP/sprouts.webp");
 	background-size: cover;
 	background-position: 50% 0%;
 	width: 100%;
 	padding: 47% 50%;
 }
 
+/*TODO Banner Video*/
 .pic3 {
 	background: url("../billeder/egne/screenshot_video.JPG");
 	background-size: cover;

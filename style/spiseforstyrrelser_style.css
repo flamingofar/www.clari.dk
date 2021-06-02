@@ -30,7 +30,7 @@
 /* ________________Billeder indsat med css & div'er________________ */
 
 .pic1 {
-	background: url("../billeder/unsplash/deniz-z8tXhG946s0-unsplash.jpg");
+	background: url("../assets/img/webP/bush.webp");
 	background-size: cover;
 	background-position: 50% 50%;
 	width: 100%;
@@ -38,7 +38,7 @@
 }
 
 .pic2 {
-	background: url("../billeder/unsplash/nathan-dumlao-_-prYEEf0v4-unsplash.jpg");
+	background: url("../assets/img/webP/hands_four.webp");
 	background-size: cover;
 	background-position: 50% 0%;
 	width: 100%;
@@ -46,7 +46,7 @@
 }
 
 .pic3 {
-	background: url(".././billeder/unsplash/andreas-dress-Eyvbop4Rheg-unsplash.jpg");
+	background: url("../assets/img/webP/bjerg.webp");
 	background-size: cover;
 	background-position: 50% 66%;
 	width: 100%;
