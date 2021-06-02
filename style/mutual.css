@@ -83,30 +83,38 @@ section {
 /* =========================== Menu ===========================*/
 /* =========================== Burgermenu ===========================*/
 header {
+	position: relative;
+	width: 100vw;
+	height: auto;
+
 	display: flex;
 	justify-content: space-between;
-	padding: 0.5rem;
+	padding: 0.5rem 0.5rem 0 0.5rem;
 
 	grid-column: 1/-1;
+
+	z-index: 20;
 }
 
 header .logo {
 	width: 10rem;
-	height: 3.26rem;
-	background: url(../assets/img/logo_mobil.svg);
-	background-size: cover;
 }
+
+header .logo_mobile {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+header .logo_desktop {
+	display: none;
+}
+
 .burger_menu {
-	position: fixed;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
-	height: 3rem;
-	width: 3rem;
-	position: absolute;
+	position: relative;
 	height: 3rem;
 	width: 3rem;
 
+	top: 0;
 	right: 1rem;
 	cursor: pointer;
 
@@ -132,13 +140,13 @@ header .logo {
 }
 
 .burger_menu .stroke_top {
-	transform: translateY(-0.6rem);
+	transform: translateY(-1rem);
 }
 .burger_menu .stroke_center {
-	transform: translateY(0);
+	transform: translateY(-0.2rem);
 }
 .burger_menu .stroke_bottom {
-	transform: translateY(0.6rem);
+	transform: translateY(0.5rem);
 }
 
 .burger_menu .stroke_top.openMenu {
@@ -267,9 +275,20 @@ footer .three_links {
 	header .logo {
 		margin: 2rem 5rem;
 		width: 10rem;
-		height: 3.66rem;
-		background: url(../assets/img/logo_komplet.svg);
-		background-size: cover;
+	}
+
+	header .logo {
+		width: 15rem;
+	}
+
+	header .logo_mobile {
+		display: none;
+	}
+	header .logo_desktop {
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: 0;
 	}
 
 	.burger_menu {
