@@ -83,7 +83,7 @@ footer .three_links {
   #section_1_wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
   }
 
   .pic1 {

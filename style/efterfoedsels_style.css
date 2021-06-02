@@ -7,7 +7,11 @@
   margin-top: 1rem;
 }
 
-#section_6 h4 {
+#section_3 {
+  background-color: #bfb096;
+}
+
+#section_7 h4 {
   text-align: center;
 }
 
@@ -20,27 +24,38 @@ li:not(:last-child) {
 }
 
 /* -----------------ligger alle billeder ind -----------------*/
-.pic1 {
-  background: url(../assets/img/hoe.jpg);
-  background-size: cover;
-  background-position: center;
+
+#section_1 .pic1 {
   width: 100%;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  height: 50vh;
+  background-image: url(../assets/deniz-z8tXhG946s0-unsplash.jpg);
+  background-size: cover;
+  background-position: 65% 50%;
+  place-content: center;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
-.pic2 {
-  content: url(../assets/img/heander.jpg);
+#section_1 .pic2 {
   width: 100%;
-  height: auto;
+  height: 50vh;
+  background-image: url(../assets/nathan-dumlao-_-prYEEf0v4-unsplash.jpg);
+  background-size: cover;
+  background-position: 65% 50%;
+  place-content: center;
+  margin-bottom: -2rem;
+  margin-top: 2rem;
 }
 
-.pic3 {
-  background: url(../assets/img/bjerg.jpg);
-  background-size: cover;
+#section_2 .pic3 {
   width: 100%;
-  padding-bottom: 79%;
-  background-position: 20%;
+  height: 50vh;
+  background-image: url(../assets/andreas-dress-Eyvbop4Rheg-unsplash.jpg);
+  background-size: cover;
+  background-position: 65% 50%;
+  place-content: center;
+  margin-bottom: -2rem;
+  margin-top: 2rem;
 }
 
 /* -----------------indsætter baggrundsfarve-----------------*/
@@ -49,7 +64,7 @@ li:not(:last-child) {
 }
 
 #section_2 {
-  background-color: #80622f9c;
+  /* background-color: #80622f9c; */
   grid-column: 1/-1;
   padding: 2rem;
   margin-bottom: 3rem;
@@ -59,26 +74,69 @@ li:not(:last-child) {
   margin-bottom: 3rem;
 }
 
-#section_4 {
+#section_5 {
   background-color: #6094cc85;
   grid-column: 1/-1;
   padding: 2rem;
   margin-bottom: 3rem;
 }
 
-#section_5 {
+#section_6 {
   background-color: #6094cc;
   color: white;
   padding: 2rem;
   margin-bottom: 3rem;
 }
 
-#section_6 {
+#section_7 {
   background-color: #6094cc85;
   grid-column: 1/-1;
   padding: 2rem;
   margin-bottom: 3rem;
 }
+
+/* @media screen and (min-width: 600px) {
+  #section_1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.5rem;
+  }
+
+  #section_2 {
+    grid-template-columns:
+      minmax(3rem, 1fr)
+      minmax(auto, 1200px)
+      minmax(3rem, 1fr);
+  }
+
+  #section_2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.5rem;
+  }
+
+  #section_3 {
+    margin-top: 2rem;
+  }
+
+  #section_3 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.5rem;
+  }
+
+  #section_4 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.5rem;
+  }
+
+  #section_6 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.5rem;
+  }
+} */
 
 /* -----------------designer footer-----------------*/
 
