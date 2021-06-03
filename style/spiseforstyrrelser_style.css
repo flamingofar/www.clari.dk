@@ -12,18 +12,21 @@
   background-color: var(--secondary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #bulimi_section {
   background-color: var(--tertiary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #overspisning_section {
   background-color: var(--secondary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #raad_section {
@@ -62,6 +65,17 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
+  }
+
+  #section_2 .section_wrapper {
+    display: grid;
+    grid-template-columns:
+      minmax(3rem, 1fr)
+      minmax(auto, 1200px)
+      minmax(3rem, 1fr);
+  }
+  #section_3 {
+    grid-column: 2;
   }
 
   .pic1 {
