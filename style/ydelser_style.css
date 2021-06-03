@@ -9,59 +9,75 @@
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  grid-column: 1/-1;
+	max-width: 100%;
+	height: auto;
+	grid-column: 1/-1;
+}
+
+#section_1 {
+	grid-column: 1/-1;
+	height: auto;
+}
+#section_1 .section1_wrapper {
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns:
+		minmax(3rem, 1fr)
+		minmax(auto, 1200px)
+		minmax(3rem, 1fr);
+}
+#section_1 .section_wrapper {
+	width: 100%;
+	background: rgba(196, 193, 193, 0.58);
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
 }
 
 .pic1 {
-  background: url("../assets/img/webP/hands_two.webp");
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 100%;
-  padding: 28%;
+	background: url("../assets/img/webP/hands_two_rotate.webp");
+	background-size: cover;
+	background-position: 50% 50%;
+	width: 100%;
+	padding: 28%;
+	transform: rotate(180deg);
 }
 
 .pic2 {
-  background: url("../assets/img/webP/sprouts.webp");
-  background-size: cover;
-  background-position: 50% 0%;
-  width: 100%;
-  padding: 47% 50%;
+	background: url("../assets/img/webP/sprouts.webp");
+	background-size: cover;
+	background-position: 50% 0%;
+	width: 100%;
+	padding: 47% 50%;
 }
 
 /*TODO Banner Video*/
-.pic3 {
-  width: 100%;
-  padding: 30% 50%;
-  grid-area: 1/1;
+.section1_wrapper {
+	width: 100%;
+	grid-column: 1/-1;
+}
+.section1_wrapper h3 {
+	width: 100%;
+	grid-column: 2;
+}
+
+.section1_wrapper video {
+	display: none;
 }
 
 .section3_wrapper {
-  display: grid;
-}
-
-.section3_wrapper h3 {
-}
-
-#section_1 .section_wrapper {
-  width: 100%;
-  background: rgba(196, 193, 193, 0.58);
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  text-align: center;
+	display: grid;
 }
 
 @media screen and (min-width: 600px) {
-  #section_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #section_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-  }
+	.section1_wrapper video {
+		display: block;
+		grid-column: 1/-1;
+		width: 100%;
+		height: auto;
+	}
+	.section1_wrapper img {
+		display: none;
+	}
 }
