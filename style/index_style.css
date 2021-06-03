@@ -3,11 +3,7 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-<<<<<<< HEAD
-  background: url(../billeder/egne/forside.webp),
-=======
   background: url(../assets/img/webP/forside_ac1.webp),
->>>>>>> 5db7e2747476c4c2a790039aad5679d86e6219ae
     linear-gradient(to left, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0));
   background-size: 130%;
   background-position: -8rem -5rem;
