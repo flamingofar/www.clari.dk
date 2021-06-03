@@ -5,7 +5,7 @@
  */
 
 #section_1 {
-  margin-top: var(--x-large_spacing);
+	margin-top: var(--x-large_spacing);
 }
 
 img {
@@ -16,27 +16,32 @@ img {
 
 #section_1 {
 	grid-column: 1/-1;
-	height: auto;
-}
-#section_1 .section1_wrapper {
-	grid-column: 1/-1;
 	display: grid;
 	grid-template-columns:
 		minmax(3rem, 1fr)
 		minmax(auto, 1200px)
 		minmax(3rem, 1fr);
-}
-#section_1 .section_wrapper {
-	width: 100%;
-	background: rgba(196, 193, 193, 0.58);
-	padding-top: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
+
 	text-align: center;
+	overflow: hidden;
+}
+
+#section_1 h3 {
+	grid-column: 2;
+}
+#section_1 img {
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.section_banner {
+	grid-column: 1/-1;
 }
 
 .pic1 {
 	background: url("../assets/img/webP/hands_two_rotate.webp");
+
 	background-size: cover;
 	background-position: 50% 50%;
 	width: 100%;
@@ -70,14 +75,61 @@ img {
 	display: grid;
 }
 
+#section_4 video {
+	display: none;
+}
+#section_4 img {
+	display: block;
+	width: 100%;
+}
+
 @media screen and (min-width: 600px) {
-	.section1_wrapper video {
-		display: block;
+	#section_1 img {
 		grid-column: 1/-1;
 		width: 100%;
-		height: auto;
 	}
-	.section1_wrapper img {
+
+	#section_2 {
+		padding-bottom: var(--large_spacing);
+	}
+
+	#section_2 .section_wrapper {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 2rem;
+	}
+	#section_2 .section_wrapper div:first-child {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+	#section_2 .section_wrapper div:nth-child(3) {
+		grid-column: 1/7;
+		grid-row: 4/5;
+	}
+	#section_2 .section_wrapper div:nth-child(3) .flex_container {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	#section_2 .pic1 {
+		grid-column: 2/5;
+		grid-row: 2/4;
+	}
+	#section_2 .pic2 {
+		grid-column: 4/7;
+		grid-row: 1/3;
+	}
+	#section_3 {
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	#section_4 img {
 		display: none;
+	}
+	#section_4 video {
+		width: 100%;
+		display: block;
 	}
 }
