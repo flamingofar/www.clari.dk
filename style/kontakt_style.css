@@ -69,7 +69,7 @@ textarea {
 /* styling og placering af indsend-knap */
 button {
   background-color: var(--tertiary);
-  color: white;
+  color: black;
   transition-duration: 0.4s;
   padding: 15px 32px;
   font-size: 1rem;
@@ -125,9 +125,8 @@ button:hover {
 .about_container div {
   width: 100%;
   padding: 0.2rem 0;
-  background: var(--secondary);
+  background: #cca4609a;
   color: white;
-
   text-align: center;
 }
 
