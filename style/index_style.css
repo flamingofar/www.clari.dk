@@ -9,6 +9,9 @@
   background-position: -8rem -5rem;
   height: 15rem;
   place-content: center end;
+
+    margin-top: var(--x-large_spacing);
+  }
 }
 
 #section_1 .overskrift_container {

@@ -1,3 +1,7 @@
+#section_1 {
+  margin-top: var(--x-large_spacing);
+}
+
 #section_1 h3 {
   margin-top: 2rem;
   padding: 0%;
