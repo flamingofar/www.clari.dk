@@ -1,7 +1,7 @@
 /** @format */
 
 #section_1 {
-  margin-top: 2rem;
+  margin-top: var(--x-large_spacing);
 }
 
 #section_1 .col {
