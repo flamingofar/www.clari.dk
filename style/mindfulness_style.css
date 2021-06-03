@@ -36,7 +36,8 @@
     gap: 4.5rem;
   }
 
-  #section_2 .col {
+  #section_2 {
+    display: grid;
     grid-template-columns:
       minmax(3rem, 1fr)
       minmax(auto, 1200px)
