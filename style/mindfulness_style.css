@@ -1,12 +1,5 @@
 /** @format */
 
-<<<<<<< HEAD
-=======
-#section_1 {
-  margin-top: var(--x-large_spacing);
-}
-
->>>>>>> bd2f9151af345531aa4e42ba12372bf6d3282d58
 #section_1 .col {
   margin-bottom: 2rem;
 }
