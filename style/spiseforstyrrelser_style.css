@@ -12,18 +12,21 @@
   background-color: var(--secondary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #bulimi_section {
   background-color: var(--tertiary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #overspisning_section {
   background-color: var(--secondary);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem;
+  grid-column: 2;
 }
 
 #raad_section {
