@@ -1,4 +1,7 @@
 /** @format */
+#section_1 {
+  margin-top: var(--x-large_spacing);
+}
 
 img {
   max-width: 100%;
