@@ -1,5 +1,9 @@
 /** @format */
 
+#section_1 {
+  margin-top: 2rem;
+}
+
 #section_1 .col {
   margin-bottom: 2rem;
 }
