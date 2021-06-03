@@ -18,14 +18,13 @@
   margin-bottom: 3rem;
 }
 
+#section_3 ul {
+  padding-bottom: 0%;
+}
+
 #section_7 h4 {
   text-align: center;
   padding-bottom: 0rem;
-}
-
-.section_ul li:not(:last-child) {
-  margin-bottom: 1rem;
-  line-height: 2.4rem;
 }
 
 #section_3 .section_wrapper4 {
@@ -258,6 +257,7 @@ footer .three_links {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 60vh;
+    line-height: 3rem;
   }
 
   .section_wrapper4 .col1 {
@@ -270,18 +270,16 @@ footer .three_links {
     grid-row: 1 / 1;
   }
 
-  .section_wrapper4 .col3 li {
-    line-height: 172%;
-  }
-
   .section_wrapper4 .col3 {
     grid-column: 1/1;
     grid-row: 2/2;
+    line-height: 3rem;
   }
 
   .section_wrapper4 .col4 {
     grid-column: 2/2;
     grid-row: 2 /2;
+    line-height: 3rem;
   }
 
   .section_wrapper5 {
