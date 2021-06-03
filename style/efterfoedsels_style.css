@@ -16,14 +16,35 @@
 
 #section_7 h4 {
   text-align: center;
+  padding-bottom: 0rem;
 }
 
 .section_ul li:not(:last-child) {
   margin-bottom: 1rem;
+  line-height: 2.4rem;
+}
+
+#section_3 .section_wrapper4 {
+  line-height: 3rem;
+  padding-bottom: 0;
 }
 
 #section_1 .psyko_section {
   margin-top: 0;
+}
+
+#section_6 ul {
+  padding-bottom: 0%;
+}
+
+#section_6 li {
+  padding-bottom: 1rem;
+}
+
+#section_7 .col,
+.col1,
+.col2 {
+  padding-bottom: 1rem;
 }
 
 /* -----------------ligger alle billeder ind -----------------*/
@@ -46,7 +67,7 @@
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
-  margin-bottom: -2rem;
+  margin-bottom: 3rem;
   margin-top: 2rem;
 }
 
@@ -57,7 +78,7 @@
   background-size: cover;
   background-position: 65% 50%;
   place-content: center;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
   margin-top: 2rem;
 }
 
@@ -69,7 +90,6 @@
 #section_2 {
   grid-column: 1/-1;
   padding: 2rem;
-  margin-bottom: 3rem;
 }
 
 #section_3 {
@@ -200,7 +220,7 @@ footer .three_links {
 
   #section_2 h3 {
     margin-left: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .section_wrapper_3 {
@@ -222,6 +242,7 @@ footer .three_links {
       minmax(3rem, 1fr)
       minmax(auto, 1200px)
       minmax(3rem, 1fr);
+    height: 39rem;
   }
 
   .grid_wrapper {
@@ -232,7 +253,7 @@ footer .three_links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 70vh;
+    height: 60vh;
   }
 
   .section_wrapper4 .col1 {
@@ -273,6 +294,14 @@ footer .three_links {
     grid-column: 2/2;
     grid-row: 1/1;
     padding-right: 4rem;
+  }
+
+  #section_4 li {
+    line-height: 166%;
+  }
+
+  .col4 ul {
+    line-height: 2.9rem;
   }
 
   /* -----------sektion 5--------------- */
@@ -353,5 +382,15 @@ footer .three_links {
   .section_wrapper7 {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  #section_7 .col {
+    padding-right: 4rem;
+  }
+
+  #section_7 .col,
+  .col1,
+  .col2 {
+    padding-bottom: 0rem;
   }
 }
