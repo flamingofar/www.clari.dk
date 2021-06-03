@@ -1,9 +1,5 @@
 /** @format */
 
-#section_1 {
-  margin-top: 2rem;
-}
-
 #section_1 .col {
   margin-bottom: 2rem;
 }
@@ -36,7 +32,7 @@
     gap: 4.5rem;
   }
 
-  #section_2 {
+  #section_2 .col {
     grid-template-columns:
       minmax(3rem, 1fr)
       minmax(auto, 1200px)
