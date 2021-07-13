@@ -5,59 +5,75 @@
  */
 
 #section_1 {
-  margin-top: var(--x-large_spacing);
+	margin-top: var(--x-large_spacing);
 }
 
 .price_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
 }
 
 .price {
-  height: 24rem;
-  max-width: 17rem;
-  padding: 1rem;
-  justify-self: center;
-  padding-top: 4.5rem;
+	height: 24rem;
+	max-width: 17rem;
+	padding: 1rem;
+	justify-self: center;
+	padding-top: 4.5rem;
 }
 
 /* ________________Box farver________________ */
 
 .box_1 {
-  background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .box_2 {
-  background-color: var(--secondary);
-  color: white;
+	background-color: var(--secondary);
+	color: white;
 }
 
 .box_3 {
-  background-color: var(--tertiary);
+	background-color: var(--tertiary);
 }
 
 .box_4 {
-  background-color: var(--accent_light);
+	background-color: var(--accent_light);
 }
 
 .box_5 {
-  background-color: var(--accent_dark);
-  color: var(--white);
+	background-color: var(--accent_dark);
+	color: var(--white);
 }
 
 /*___________________ MEDIA QUERY ______________________*/
 
 @media screen and (min-width: 600px) {
-  .price_container {
-    grid-template-columns: repeat(5, 1fr);
-    margin-bottom: 2rem;
-  }
+	.price_container {
+		grid-template-columns: repeat(5, 1fr);
+		margin-bottom: 2rem;
+	}
 
-  .price {
-    height: 27rem;
-    max-width: 17rem;
-    padding: 1.5rem;
-    padding-top: 6.5rem;
-  }
+	.price {
+		height: 30rem;
+		max-width: 17rem;
+		padding: 2rem 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.priser_txt {
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.priser_price h3 {
+		font-size: 2rem;
+		height: 25%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }

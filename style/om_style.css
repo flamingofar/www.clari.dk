@@ -1,62 +1,62 @@
 /** @format */
 #section_1 {
-  margin-top: var(--x-large_spacing);
+	margin-top: var(--x-large_spacing);
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 #section_1 {
-  width: 100%;
-  height: auto;
-  grid-column: 1/-1;
-  margin-bottom: 3rem;
+	width: 100%;
+	height: auto;
+	grid-column: 1/-1;
+	margin-bottom: 3rem;
 }
 
 #section_1 .section_wrapper {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 video {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 #section_2 {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 #section_3 {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 #section_3 ul {
-  padding-bottom: 0;
+	padding-bottom: 0;
 }
 
 #section_4 {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 #section_5 {
-  width: 100%;
-  height: 30vh;
-  grid-column: 1/-1;
-  background-size: cover;
-  background-image: url(../assets/img/webP/klit.webp);
-  background-position: 40% 45%;
-  margin-bottom: 3rem;
+	width: 100%;
+	height: 30vh;
+	grid-column: 1/-1;
+	background-size: cover;
+	background-image: url(../assets/img/webP/klit.webp);
+	background-position: 40% 45%;
+	margin-bottom: 3rem;
 }
 
 #section_6 {
-  padding-bottom: 0;
-  margin-bottom: 3rem;
+	padding-bottom: 0;
+	margin-bottom: 3rem;
 }
 
 #section_6 ul {
-  padding-bottom: 0;
+	padding-bottom: 0;
 }
 
 /* @media (min-aspect-ratio: 16/9) {
@@ -67,38 +67,38 @@ video {
 } */
 
 @media screen and (min-width: 600px) {
-  #section_2 {
-    grid-template-columns:
-      minmax(3rem, 1fr)
-      minmax(auto, 1200px)
-      minmax(3rem, 1fr);
-  }
+	#section_2 {
+		grid-template-columns:
+			minmax(3rem, 1fr)
+			minmax(auto, 1200px)
+			minmax(3rem, 1fr);
+	}
 
-  #section_2 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4.5rem;
-  }
+	#section_2 .section_wrapper .col {
+		column-count: 2;
+	}
 
-  #section_3 {
-    margin-top: 2rem;
-  }
+	#section_3 .section_wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2rem;
+	}
+	#section_3 .col {
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+	#section_3 .col1,
+	#section_3 .col2 {
+		padding-inline: 2rem;
+	}
 
-  #section_3 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4.5rem;
-  }
+	#section_4 .section_wrapper .col {
+		column-count: 2;
+	}
 
-  #section_4 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4.5rem;
-  }
-
-  #section_6 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4.5rem;
-  }
+	#section_6 .section_wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 4.5rem;
+	}
 }
