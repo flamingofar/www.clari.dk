@@ -328,7 +328,7 @@ footer .three_links {
 
 	nav ul li a {
 		color: #4b4b4b;
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 	nav ul li:hover::after {
 		transform-origin: left;

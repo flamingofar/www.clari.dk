@@ -3,12 +3,10 @@
 	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: url(../assets/img/webP/forside_ac1.webp);
-	background-size: 130%;
-	background-position: -8rem -5rem;
-	background-repeat: no-repeat;
-	height: 15rem;
-	place-content: center end;
+	grid-template-columns: minmax(30vw, 160px);
+	width: 100%;
+	height: auto;
+	place-content: start;
 
 	margin-top: var(--x-large_spacing);
 }
@@ -16,8 +14,20 @@
 #section_1 .overskrift_container {
 	position: relative;
 	z-index: 0;
-	grid-area: 1/3;
+	grid-column: 2/4;
+	grid-row: 1;
+	place-self: center;
 	padding: 2rem;
+}
+#section_1 img {
+	position: relative;
+	z-index: -1;
+	grid-column: 1/4;
+	grid-row: 1;
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
 }
 #section_1 .overskrift_container h1 {
 	position: relative;
@@ -26,24 +36,6 @@
 	color: var(--white);
 	text-align: center;
 	padding: 0.5rem;
-}
-#section_1 .overskrift_container h1:first-child:after {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	content: "";
-	height: 0.05rem;
-	width: 100%;
-	background: var(--white);
-}
-#section_1 .overskrift_container h1:nth-child(2):after {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	content: "";
-	height: 0.05rem;
-	width: 100%;
-	background: var(--white);
 }
 
 #section_2 {
@@ -72,8 +64,10 @@
 	align-items: center;
 	flex-direction: column;
 }
-#section_2 .testimonials .col p {
+#section_2 .testimonials .col p,
+q {
 	margin: var(--medium_spacing);
+	color: var(--accent_light);
 }
 
 #section_3 .box_container {
@@ -102,29 +96,31 @@
 }
 
 #section_3 .box_1 {
-	background: url("/assets/img/webP/beach.webp");
-	background-size: cover;
-	background-position: center;
-}
-#section_3 .box_1 div {
-	background: rgba(204, 164, 96, 0.71);
-}
-#section_3 .box_2 {
-	background: url("/assets/img/webP/bush.webp");
-	background-size: cover;
-	background-position: center;
-}
-#section_3 .box_2 div {
-	background: rgba(128, 98, 47, 0.71);
-}
-#section_3 .box_3 {
 	background: url("/assets/img/webP/baby_feet.webp");
 	background-size: cover;
 	background-position: center;
 }
-#section_3 .box_3 div {
+#section_3 .box_1 div {
 	background: rgba(35, 78, 128, 0.71);
 }
+
+#section_3 .box_2 {
+	background: url("/assets/img/webP/beach.webp");
+	background-size: cover;
+	background-position: center;
+}
+#section_3 .box_2 div {
+	background: rgba(204, 164, 96, 0.71);
+}
+#section_3 .box_3 {
+	background: url("/assets/img/webP/bush.webp");
+	background-size: cover;
+	background-position: center;
+}
+#section_3 .box_3 div {
+	background: rgba(128, 98, 47, 0.71);
+}
+
 #section_3 .box_4 {
 	background: url("/assets/img/webP/sprouts.webp");
 	background-size: cover;
@@ -189,19 +185,22 @@
 @media screen and (min-width: 600px) {
 	#section_1 {
 		grid-column: 1 / -1;
+		width: 100%;
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+		place-content: start;
 
-		height: 90vh;
-		background: url(../assets/img/webP/forside_ac.webp);
-		background-size: 130%;
-		background-position: -27rem -20rem;
-		place-content: center;
-		background-repeat: no-repeat;
+		z-index: -1;
 	}
-
+	#section_1 img {
+		width: 100%;
+		grid-column: 1/4;
+		grid-row: 1;
+	}
 	#section_1 .overskrift_container {
-		grid-area: 1/4;
+		grid-column: 2/4;
+		place-self: center;
+		z-index: 1;
 	}
 	#section_1 .overskrift_container h1 {
 		font-size: 5rem;
